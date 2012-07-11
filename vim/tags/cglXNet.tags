@@ -1,0 +1,629 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CGLX_ACCUM	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	162;"	d
+CGLX_ALPHA	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	163;"	d
+CGLX_ALT_MASK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	63;"	d
+CGLX_ARG_FORCE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxarg_E{CGLX_ARG_NDEF=0,CGLX_ARG_HINT=1,CGLX_ARG_FORCE=2};$/;"	e	enum:cglxarg_E
+CGLX_ARG_HINT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxarg_E{CGLX_ARG_NDEF=0,CGLX_ARG_HINT=1,CGLX_ARG_FORCE=2};$/;"	e	enum:cglxarg_E
+CGLX_ARG_NDEF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxarg_E{CGLX_ARG_NDEF=0,CGLX_ARG_HINT=1,CGLX_ARG_FORCE=2};$/;"	e	enum:cglxarg_E
+CGLX_Audio	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	102;"	d
+CGLX_BF_AND	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{CGLX_BF_OR=0,CGLX_BF_AND=1}cglxbitcomp_E;$/;"	e	enum:__anon2
+CGLX_BF_OR	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{CGLX_BF_OR=0,CGLX_BF_AND=1}cglxbitcomp_E;$/;"	e	enum:__anon2
+CGLX_BIT_0	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	190;"	d
+CGLX_BIT_1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	191;"	d
+CGLX_BIT_10	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	202;"	d
+CGLX_BIT_11	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	203;"	d
+CGLX_BIT_12	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	205;"	d
+CGLX_BIT_13	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	206;"	d
+CGLX_BIT_14	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	207;"	d
+CGLX_BIT_15	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	208;"	d
+CGLX_BIT_16	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	210;"	d
+CGLX_BIT_17	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	211;"	d
+CGLX_BIT_18	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	212;"	d
+CGLX_BIT_19	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	213;"	d
+CGLX_BIT_2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	192;"	d
+CGLX_BIT_20	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	215;"	d
+CGLX_BIT_21	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	216;"	d
+CGLX_BIT_22	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	217;"	d
+CGLX_BIT_23	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	218;"	d
+CGLX_BIT_24	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	220;"	d
+CGLX_BIT_25	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	221;"	d
+CGLX_BIT_26	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	222;"	d
+CGLX_BIT_27	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	223;"	d
+CGLX_BIT_28	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	225;"	d
+CGLX_BIT_29	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	226;"	d
+CGLX_BIT_3	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	193;"	d
+CGLX_BIT_30	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	227;"	d
+CGLX_BIT_31	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	228;"	d
+CGLX_BIT_4	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	195;"	d
+CGLX_BIT_5	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	196;"	d
+CGLX_BIT_6	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	197;"	d
+CGLX_BIT_7	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	198;"	d
+CGLX_BIT_8	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	200;"	d
+CGLX_BIT_9	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	201;"	d
+CGLX_BIT_FULL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	188;"	d
+CGLX_BIT_NDEF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	187;"	d
+CGLX_Button1Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	69;"	d
+CGLX_Button2Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	70;"	d
+CGLX_Button3Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	71;"	d
+CGLX_Button4Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	72;"	d
+CGLX_Button5Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	73;"	d
+CGLX_ButtonPress	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	81;"	d
+CGLX_ButtonRelease	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	82;"	d
+CGLX_CAPS_LOCK_MASK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	60;"	d
+CGLX_CARBON_DECO_SIZE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	176;"	d
+CGLX_CIDPOOL_H	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	38;"	d
+CGLX_CONTROL_MASK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	61;"	d
+CGLX_ClientMessage	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	88;"	d
+CGLX_ConfigureNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	87;"	d
+CGLX_Controller	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	99;"	d
+CGLX_CustomMessage	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	101;"	d
+CGLX_DEPTH	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	164;"	d
+CGLX_DEV_OFF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CGLX_DEV_OFF		= 0,$/;"	e	enum:__anon3
+CGLX_DEV_ON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CGLX_DEV_ON			= 1,$/;"	e	enum:__anon3
+CGLX_DEV_RECONNECT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CGLX_DEV_RECONNECT	= 4$/;"	e	enum:__anon3
+CGLX_DEV_TOSTART	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CGLX_DEV_TOSTART	= 2,$/;"	e	enum:__anon3
+CGLX_DEV_TOSTOP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CGLX_DEV_TOSTOP		= 3,$/;"	e	enum:__anon3
+CGLX_DOUBLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	160;"	d
+CGLX_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	51;"	d
+CGLX_DeviceNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	105;"	d
+CGLX_ENTERED	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	54;"	d
+CGLX_EXT_H	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	37;"	d
+CGLX_EnterNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	84;"	d
+CGLX_Expose	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	86;"	d
+CGLX_INDEX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	151;"	d
+CGLX_KEY_ALT_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	198;"	d
+CGLX_KEY_ALT_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	199;"	d
+CGLX_KEY_BACKSPACE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	111;"	d
+CGLX_KEY_BEGIN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	131;"	d
+CGLX_KEY_CAPS_LOCK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	193;"	d
+CGLX_KEY_CLEAR	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	114;"	d
+CGLX_KEY_CONTROL_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	191;"	d
+CGLX_KEY_CONTROL_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	192;"	d
+CGLX_KEY_DELETE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	120;"	d
+CGLX_KEY_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	126;"	d
+CGLX_KEY_END	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	129;"	d
+CGLX_KEY_ESCAPE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	119;"	d
+CGLX_KEY_F1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	133;"	d
+CGLX_KEY_F10	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	142;"	d
+CGLX_KEY_F11	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	143;"	d
+CGLX_KEY_F12	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	144;"	d
+CGLX_KEY_F2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	134;"	d
+CGLX_KEY_F3	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	135;"	d
+CGLX_KEY_F4	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	136;"	d
+CGLX_KEY_F5	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	137;"	d
+CGLX_KEY_F6	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	138;"	d
+CGLX_KEY_F7	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	139;"	d
+CGLX_KEY_F8	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	140;"	d
+CGLX_KEY_F9	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	141;"	d
+CGLX_KEY_HOME	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	122;"	d
+CGLX_KEY_HYPER_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	202;"	d
+CGLX_KEY_HYPER_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	203;"	d
+CGLX_KEY_INSERT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	130;"	d
+CGLX_KEY_KP_0	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	175;"	d
+CGLX_KEY_KP_1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	176;"	d
+CGLX_KEY_KP_2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	177;"	d
+CGLX_KEY_KP_3	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	178;"	d
+CGLX_KEY_KP_4	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	179;"	d
+CGLX_KEY_KP_5	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	180;"	d
+CGLX_KEY_KP_6	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	181;"	d
+CGLX_KEY_KP_7	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	182;"	d
+CGLX_KEY_KP_8	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	183;"	d
+CGLX_KEY_KP_9	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	184;"	d
+CGLX_KEY_KP_ADD	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	169;"	d
+CGLX_KEY_KP_BEGIN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	164;"	d
+CGLX_KEY_KP_DECIMAL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	172;"	d
+CGLX_KEY_KP_DELETE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	166;"	d
+CGLX_KEY_KP_DIVIDE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	173;"	d
+CGLX_KEY_KP_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	160;"	d
+CGLX_KEY_KP_END	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	163;"	d
+CGLX_KEY_KP_ENTER	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	151;"	d
+CGLX_KEY_KP_EQUAL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	167;"	d
+CGLX_KEY_KP_F1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	152;"	d
+CGLX_KEY_KP_F2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	153;"	d
+CGLX_KEY_KP_F3	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	154;"	d
+CGLX_KEY_KP_F4	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	155;"	d
+CGLX_KEY_KP_HOME	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	156;"	d
+CGLX_KEY_KP_INSERT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	165;"	d
+CGLX_KEY_KP_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	157;"	d
+CGLX_KEY_KP_MULTIPLY	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	168;"	d
+CGLX_KEY_KP_PAGE_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	162;"	d
+CGLX_KEY_KP_PAGE_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	161;"	d
+CGLX_KEY_KP_RIGHT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	159;"	d
+CGLX_KEY_KP_SEPARATOR	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	170;"	d
+CGLX_KEY_KP_SPACE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	149;"	d
+CGLX_KEY_KP_SUBTRACT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	171;"	d
+CGLX_KEY_KP_TAB	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	150;"	d
+CGLX_KEY_KP_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	158;"	d
+CGLX_KEY_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	123;"	d
+CGLX_KEY_LINEFEED	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	113;"	d
+CGLX_KEY_META_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	196;"	d
+CGLX_KEY_META_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	197;"	d
+CGLX_KEY_PAGE_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	128;"	d
+CGLX_KEY_PAGE_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	127;"	d
+CGLX_KEY_PAUSE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	116;"	d
+CGLX_KEY_RETURN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	115;"	d
+CGLX_KEY_RIGHT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	125;"	d
+CGLX_KEY_SCROLL_LOCK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	117;"	d
+CGLX_KEY_SHIFT_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	189;"	d
+CGLX_KEY_SHIFT_LOCK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	194;"	d
+CGLX_KEY_SHIFT_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	190;"	d
+CGLX_KEY_SUPER_L	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	200;"	d
+CGLX_KEY_SUPER_R	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	201;"	d
+CGLX_KEY_SYS_REQ	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	118;"	d
+CGLX_KEY_TAB	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	112;"	d
+CGLX_KEY_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	124;"	d
+CGLX_KeyPress	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	79;"	d
+CGLX_KeyRelease	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	80;"	d
+CGLX_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	53;"	d
+CGLX_LEFT_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	44;"	d
+CGLX_LUMINANCE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	173;"	d
+CGLX_LeaveNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	85;"	d
+CGLX_MIDDLE_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	45;"	d
+CGLX_MULTISAMPLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	166;"	d
+CGLX_Mod1Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	62;"	d
+CGLX_Mod2Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	64;"	d
+CGLX_Mod3Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	66;"	d
+CGLX_Mod4Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	67;"	d
+CGLX_Mod5Mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	68;"	d
+CGLX_MotionNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	83;"	d
+CGLX_MultiTouch	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	96;"	d
+CGLX_NET_API_H	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	38;"	d
+CGLX_NUM_LOCK_MASK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	65;"	d
+CGLX_RGB	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	149;"	d
+CGLX_RGBA	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	150;"	d
+CGLX_RIGHT_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	46;"	d
+CGLX_SHIFT_MASK	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	59;"	d
+CGLX_SINGLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	156;"	d
+CGLX_SNAP_BACKGROUND	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxsnap_E{CGLX_SNAP_TMP=0,CGLX_SNAP_IMG=1, CGLX_SNAP_BACKGROUND=2};$/;"	e	enum:cglxsnap_E
+CGLX_SNAP_IMG	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxsnap_E{CGLX_SNAP_TMP=0,CGLX_SNAP_IMG=1, CGLX_SNAP_BACKGROUND=2};$/;"	e	enum:cglxsnap_E
+CGLX_SNAP_TMP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxsnap_E{CGLX_SNAP_TMP=0,CGLX_SNAP_IMG=1, CGLX_SNAP_BACKGROUND=2};$/;"	e	enum:cglxsnap_E
+CGLX_SPCMouse	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	97;"	d
+CGLX_STENCIL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	165;"	d
+CGLX_STEREO	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	171;"	d
+CGLX_StreamNotify	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	104;"	d
+CGLX_Tracker	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	100;"	d
+CGLX_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	52;"	d
+CGLX_WHEEL_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	48;"	d
+CGLX_WHEEL_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	47;"	d
+CGLX_WII_BTN_1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	210;"	d
+CGLX_WII_BTN_2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	209;"	d
+CGLX_WII_BTN_A	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	212;"	d
+CGLX_WII_BTN_B	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	211;"	d
+CGLX_WII_BTN_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	217;"	d
+CGLX_WII_BTN_HOME	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	214;"	d
+CGLX_WII_BTN_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	215;"	d
+CGLX_WII_BTN_MINUS	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	213;"	d
+CGLX_WII_BTN_PLUS	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	219;"	d
+CGLX_WII_BTN_RIGHT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	216;"	d
+CGLX_WII_BTN_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	218;"	d
+CGLX_Wii	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	98;"	d
+CM_CHAR	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CM_CHAR		= 0,$/;"	e	enum:__anon4
+CM_DOUBLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CM_DOUBLE	= 2$/;"	e	enum:__anon4
+CM_INT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CM_INT		= 1,$/;"	e	enum:__anon4
+CM_NDEF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CM_NDEF		=-1,$/;"	e	enum:__anon4
+CODEPOS	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	56;"	d
+CS_CM_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^union CS_CM_S{$/;"	u
+CS_CM_S::b	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	char 	b[32];$/;"	m	union:CS_CM_S	access:public
+CS_CM_S::d	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	double	d[4];$/;"	m	union:CS_CM_S	access:public
+CS_CM_S::i	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int		i[8];$/;"	m	union:CS_CM_S	access:public
+CS_CT_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^union CS_CT_S{$/;"	u
+CS_CT_S::c	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    char 	*c;$/;"	m	union:CS_CT_S	access:public
+CS_CT_S::d	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    double	*d;$/;"	m	union:CS_CT_S	access:public
+CS_CT_S::i	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int		*i;$/;"	m	union:CS_CT_S	access:public
+CS_CUSTOM_MSG_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^} *CS_CUSTOM_MSG_P;$/;"	t	typeref:struct:CS_CUSTOM_MSG_S
+CS_CUSTOM_MSG_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_CUSTOM_MSG_S{$/;"	s
+CS_CUSTOM_MSG_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int	ID;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+CS_CUSTOM_MSG_S::data	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	CS_CM_S data;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+CS_CUSTOM_MSG_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int type;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+CS_DEVICE_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_DEVICE_P;$/;"	t	typeref:struct:CS_DEVICE_S
+CS_DEVICE_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_DEVICE_S{$/;"	s
+CS_DEVICE_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				ID;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::alive_response	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				alive_response;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::contact_port	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				contact_port;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::data_port	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				data_port;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::hostname	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    std::string		hostname;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::no_response	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				no_response;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::serv_class	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_serv_mode_E	serv_class;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::state	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cglxdevstate_E	state;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_DEVICE_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_hci_type_E	type;$/;"	m	struct:CS_DEVICE_S	access:public
+CS_EXT_CONFIGURE_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_CONFIGURE_P;$/;"	t	typeref:struct:CS_EXT_CONFIGURE_S
+CS_EXT_CONFIGURE_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_CONFIGURE_S$/;"	s
+CS_EXT_CONFIGURE_S::height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			height;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+CS_EXT_CONFIGURE_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+CS_EXT_CONFIGURE_S::width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			width;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+CS_EXT_CONFIGURE_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+CS_EXT_CONFIGURE_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+CS_EXT_CONTROL_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_CONTROL_P;$/;"	t	typeref:struct:CS_EXT_CONTROL_S
+CS_EXT_CONTROL_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_CONTROL_S$/;"	s
+CS_EXT_CONTROL_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+CS_EXT_CONTROL_S::axis	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*axis;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+CS_EXT_CONTROL_S::axis_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				axis_count;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+CS_EXT_CONTROL_S::button_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				button_count;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+CS_EXT_CONTROL_S::buttons	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*buttons;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+CS_EXT_CROSSING_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_CROSSING_P;$/;"	t	typeref:struct:CS_EXT_CROSSING_S
+CS_EXT_CROSSING_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_CROSSING_S$/;"	s
+CS_EXT_CROSSING_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+CS_EXT_CROSSING_S::mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;	\/\/ modifier and state$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+CS_EXT_CROSSING_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+CS_EXT_CROSSING_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+CS_EXT_CROSSING_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+CS_EXT_CUSTOM_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_CUSTOM_P;$/;"	t	typeref:struct:CS_EXT_CUSTOM_S
+CS_EXT_CUSTOM_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_CUSTOM_S$/;"	s
+CS_EXT_CUSTOM_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+CS_EXT_CUSTOM_S::len	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				len;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+CS_EXT_CUSTOM_S::msg	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    char			*msg;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+CS_EXT_EXPOSE_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_EXPOSE_P;$/;"	t	typeref:struct:CS_EXT_EXPOSE_S
+CS_EXT_EXPOSE_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_EXPOSE_S$/;"	s
+CS_EXT_EXPOSE_S::height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			height;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+CS_EXT_EXPOSE_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+CS_EXT_EXPOSE_S::width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			width;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+CS_EXT_EXPOSE_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+CS_EXT_EXPOSE_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+CS_EXT_GYRO_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_GYRO_P;$/;"	t	typeref:struct:CS_EXT_GYRO_S
+CS_EXT_GYRO_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_GYRO_S$/;"	s
+CS_EXT_GYRO_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+CS_EXT_GYRO_S::xa	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			xa;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+CS_EXT_GYRO_S::ya	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ya;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+CS_EXT_GYRO_S::za	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			za;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+CS_EXT_KBEVENT_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_KBEVENT_P;$/;"	t	typeref:struct:CS_EXT_KBEVENT_S
+CS_EXT_KBEVENT_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_KBEVENT_S$/;"	s
+CS_EXT_KBEVENT_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_KBEVENT_S::keycode	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	keycode;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_KBEVENT_S::mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;	\/\/ modifier and state$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_KBEVENT_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_KBEVENT_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_KBEVENT_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+CS_EXT_MEVENT_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_MEVENT_P;$/;"	t	typeref:struct:CS_EXT_MEVENT_S
+CS_EXT_MEVENT_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_MEVENT_S$/;"	s
+CS_EXT_MEVENT_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MEVENT_S::button	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			button;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MEVENT_S::mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MEVENT_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MEVENT_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MEVENT_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+CS_EXT_MOTION_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_MOTION_P;$/;"	t	typeref:struct:CS_EXT_MOTION_S
+CS_EXT_MOTION_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_MOTION_S$/;"	s
+CS_EXT_MOTION_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+CS_EXT_MOTION_S::mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+CS_EXT_MOTION_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+CS_EXT_MOTION_S::x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+CS_EXT_MOTION_S::y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+CS_EXT_MULTIT_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_MULTIT_P;$/;"	t	typeref:struct:CS_EXT_MULTIT_S
+CS_EXT_MULTIT_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_MULTIT_S$/;"	s
+CS_EXT_MULTIT_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+CS_EXT_MULTIT_S::blobs	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_MT_BLOB_S	*blobs;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+CS_EXT_MULTIT_S::num	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				num;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+CS_EXT_SMEVENT_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_SMEVENT_P;$/;"	t	typeref:struct:CS_EXT_SMEVENT_S
+CS_EXT_SMEVENT_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_SMEVENT_S$/;"	s
+CS_EXT_SMEVENT_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::Rx	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Rx;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::Ry	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Ry;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::Rz	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Rz;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::X	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			X;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::Y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Y;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::Z	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Z;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_SMEVENT_S::b	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	b;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+CS_EXT_STREAM_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_STREAM_P;$/;"	t	typeref:struct:CS_EXT_STREAM_S
+CS_EXT_STREAM_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_STREAM_S{$/;"	s
+CS_EXT_STREAM_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int					ID;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_STREAM_S::fid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		fid;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_STREAM_S::height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		height;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_STREAM_S::status	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_stream_notify_E	status;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_STREAM_S::tid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		tid;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_STREAM_S::width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		width;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+CS_EXT_TRACK_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_TRACK_P;$/;"	t	typeref:struct:CS_EXT_TRACK_S
+CS_EXT_TRACK_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_TRACK_S$/;"	s
+CS_EXT_TRACK_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::body	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_TRACK_BODY_S	*body;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::body_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				body_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::button_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				button_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::buttons	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				*buttons;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::valuator	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*valuator;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_TRACK_S::valuator_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				valuator_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+CS_EXT_WII_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_EXT_WII_P;$/;"	t	typeref:struct:CS_EXT_WII_S
+CS_EXT_WII_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_EXT_WII_S$/;"	s
+CS_EXT_WII_S::ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::acc_x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_x;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::acc_y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_y;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::acc_z	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_z;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::button	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	button;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::ir_x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ir_x;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_EXT_WII_S::ir_y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ir_y;$/;"	m	struct:CS_EXT_WII_S	access:public
+CS_HCI_ANDROID_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_ANDROID_SERV	= 14,$/;"	e	enum:cs_hci_type_E
+CS_HCI_APPL_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_APPL_SERV	= 10,$/;"	e	enum:cs_hci_type_E
+CS_HCI_AUDIO_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_AUDIO_SERV	= 16,$/;"	e	enum:cs_hci_type_E
+CS_HCI_CONTROL_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_CONTROL_SERV	= 15,$/;"	e	enum:cs_hci_type_E
+CS_HCI_CUST_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_CUST_SERV	= 7,$/;"	e	enum:cs_hci_type_E
+CS_HCI_GYRO_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_GYRO_SERV	= 4,$/;"	e	enum:cs_hci_type_E
+CS_HCI_IPAD_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_IPAD_SERV	= 12,$/;"	e	enum:cs_hci_type_E
+CS_HCI_IPOD_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_IPOD_SERV	= 13,$/;"	e	enum:cs_hci_type_E
+CS_HCI_JOY_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_JOY_SERV		= 3,$/;"	e	enum:cs_hci_type_E
+CS_HCI_LAST_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_LAST_SERV	= 17$/;"	e	enum:cs_hci_type_E
+CS_HCI_MT_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_MT_SERV		= 6,$/;"	e	enum:cs_hci_type_E
+CS_HCI_SPM_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_SPM_SERV		= 2,$/;"	e	enum:cs_hci_type_E
+CS_HCI_TRACK_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_TRACK_SERV	= 5,$/;"	e	enum:cs_hci_type_E
+CS_HCI_UNDEF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_UNDEF		= 0,$/;"	e	enum:cs_hci_type_E
+CS_HCI_WII_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_WII_SERV		= 11,$/;"	e	enum:cs_hci_type_E
+CS_HCI_X_SERV	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_HCI_X_SERV		= 1,$/;"	e	enum:cs_hci_type_E
+CS_KEYCODE_H	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	39;"	d
+CS_MT_BLOB_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_MT_BLOB_P;$/;"	t	typeref:struct:CS_MT_BLOB_S
+CS_MT_BLOB_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_MT_BLOB_S$/;"	s
+CS_MT_BLOB_S::maxX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			maxX;$/;"	m	struct:CS_MT_BLOB_S	access:public
+CS_MT_BLOB_S::maxY	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			maxY;$/;"	m	struct:CS_MT_BLOB_S	access:public
+CS_MT_BLOB_S::minX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			minX;$/;"	m	struct:CS_MT_BLOB_S	access:public
+CS_MT_BLOB_S::minY	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			minY;$/;"	m	struct:CS_MT_BLOB_S	access:public
+CS_MT_BLOB_S::pres	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			pres;$/;"	m	struct:CS_MT_BLOB_S	access:public
+CS_SERV_ACTIVE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_SERV_ACTIVE		= 1$/;"	e	enum:cs_serv_mode_E
+CS_SERV_PASSIVE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_SERV_PASSIVE		= 0,$/;"	e	enum:cs_serv_mode_E
+CS_STREAM_CHANGE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_STREAM_CHANGE$/;"	e	enum:cs_stream_notify_E
+CS_STREAM_OFF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_STREAM_OFF,$/;"	e	enum:cs_stream_notify_E
+CS_STREAM_ON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_STREAM_ON,$/;"	e	enum:cs_stream_notify_E
+CS_SYNC_DATA_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^} *CS_SYNC_DATA_P;$/;"	t	typeref:struct:CS_SYNC_DATA_S
+CS_SYNC_DATA_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_SYNC_DATA_S{\/\/#include "cglXCore.h"$/;"	s
+CS_SYNC_DATA_S::etime	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    double			etime;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+CS_SYNC_DATA_S::pl	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_CT_S 		pl;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+CS_SYNC_DATA_S::ref	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				ref;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+CS_SYNC_DATA_S::size	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				size;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+CS_SYNC_DATA_S::type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+CS_TRACK_BODY_P	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}*CS_TRACK_BODY_P;$/;"	t	typeref:struct:CS_TRACK_BODY_S
+CS_TRACK_BODY_S	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef struct CS_TRACK_BODY_S$/;"	s
+CS_TRACK_BODY_S::p	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			p[3];$/;"	m	struct:CS_TRACK_BODY_S	access:public
+CS_TRACK_BODY_S::r	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			r[3];$/;"	m	struct:CS_TRACK_BODY_S	access:public
+CULL_ABS	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum culltype_E {CULL_REL=0,CULL_ABS=1};$/;"	e	enum:culltype_E
+CULL_REL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum culltype_E {CULL_REL=0,CULL_ABS=1};$/;"	e	enum:culltype_E
+DEF_STEREO_APR	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	136;"	d
+DEF_STEREO_EYESEP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	140;"	d
+DEF_STEREO_FL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	144;"	d
+Diagnostics	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^bool Diagnostics(cs_hci_type_E serv_type = CS_HCI_UNDEF, cs_serv_mode_E serv_mode=CS_SERV_PASSIVE, int contact_port=-1, char *target=NULL, int world=0);$/;"	p	signature:(cs_hci_type_E serv_type = CS_HCI_UNDEF, cs_serv_mode_E serv_mode=CS_SERV_PASSIVE, int contact_port=-1, char *target=NULL, int world=0)
+FALSE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	52;"	d
+GLUT_ACCUM	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	121;"	d
+GLUT_ACTIVE_ALT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	111;"	d
+GLUT_ACTIVE_CTRL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	110;"	d
+GLUT_ACTIVE_SHIFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	109;"	d
+GLUT_ALPHA	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	122;"	d
+GLUT_DEPTH	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	123;"	d
+GLUT_DOUBLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	120;"	d
+GLUT_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	93;"	d
+GLUT_ENTERED	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	96;"	d
+GLUT_INDEX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	118;"	d
+GLUT_KEY_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	79;"	d
+GLUT_KEY_END	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	83;"	d
+GLUT_KEY_F1	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	64;"	d
+GLUT_KEY_F10	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	73;"	d
+GLUT_KEY_F11	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	74;"	d
+GLUT_KEY_F12	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	75;"	d
+GLUT_KEY_F2	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	65;"	d
+GLUT_KEY_F3	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	66;"	d
+GLUT_KEY_F4	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	67;"	d
+GLUT_KEY_F5	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	68;"	d
+GLUT_KEY_F6	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	69;"	d
+GLUT_KEY_F7	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	70;"	d
+GLUT_KEY_F8	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	71;"	d
+GLUT_KEY_F9	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	72;"	d
+GLUT_KEY_HOME	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	82;"	d
+GLUT_KEY_INSERT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	84;"	d
+GLUT_KEY_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	76;"	d
+GLUT_KEY_PAGE_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	81;"	d
+GLUT_KEY_PAGE_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	80;"	d
+GLUT_KEY_RIGHT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	78;"	d
+GLUT_KEY_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	77;"	d
+GLUT_LEFT	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	95;"	d
+GLUT_LEFT_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	89;"	d
+GLUT_LUMINANCE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	127;"	d
+GLUT_MIDDLE_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	90;"	d
+GLUT_MULTISAMPLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	125;"	d
+GLUT_RGB	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	116;"	d
+GLUT_RGBA	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	117;"	d
+GLUT_RIGHT_BUTTON	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	91;"	d
+GLUT_SINGLE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	119;"	d
+GLUT_STENCIL	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	124;"	d
+GLUT_STEREO	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	126;"	d
+GLUT_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	94;"	d
+GLUT_WHEEL_DOWN	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	99;"	d
+GLUT_WHEEL_UP	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	98;"	d
+GiveUsage	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^void GiveUsage(char *cmd);$/;"	p	signature:(char *cmd)
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int	ID;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int					ID;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				ID;$/;"	m	struct:CS_DEVICE_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+ID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			ID;$/;"	m	struct:CS_EXT_WII_S	access:public
+KeyToCGLX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	/^unsigned int KeyToCGLX(unsigned int keycode);$/;"	p	signature:(unsigned int keycode)
+MapToCGLX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	/^const unsigned int MapToCGLX[256] = {$/;"	v
+MapToMac	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXKeyCodeMap.h	/^const unsigned int MapToMac[256] = {$/;"	v
+OL_NDEF	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{OL_NDEF=-1,OL_POINTER=0,OL_WALL_AREA=1,OL_STREAMS=2}ol_obj_E;$/;"	e	enum:__anon1
+OL_POINTER	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{OL_NDEF=-1,OL_POINTER=0,OL_WALL_AREA=1,OL_STREAMS=2}ol_obj_E;$/;"	e	enum:__anon1
+OL_STREAMS	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{OL_NDEF=-1,OL_POINTER=0,OL_WALL_AREA=1,OL_STREAMS=2}ol_obj_E;$/;"	e	enum:__anon1
+OL_WALL_AREA	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{OL_NDEF=-1,OL_POINTER=0,OL_WALL_AREA=1,OL_STREAMS=2}ol_obj_E;$/;"	e	enum:__anon1
+PI	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	59;"	d
+Rx	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Rx;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+Ry	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Ry;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+Rz	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Rz;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+TRUE	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	53;"	d
+X	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			X;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+Y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Y;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+Z	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			Z;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+acc_x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_x;$/;"	m	struct:CS_EXT_WII_S	access:public
+acc_y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_y;$/;"	m	struct:CS_EXT_WII_S	access:public
+acc_z	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				acc_z;$/;"	m	struct:CS_EXT_WII_S	access:public
+alive_response	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				alive_response;$/;"	m	struct:CS_DEVICE_S	access:public
+axis	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*axis;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+axis_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				axis_count;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+b	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	char 	b[32];$/;"	m	union:CS_CM_S	access:public
+b	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	b;$/;"	m	struct:CS_EXT_SMEVENT_S	access:public
+base_id_range	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    int		base_id_range;$/;"	m	class:cglXIDPool	access:private
+blobs	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_MT_BLOB_S	*blobs;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+body	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_TRACK_BODY_S	*body;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+body_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				body_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+button	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			button;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+button	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	button;$/;"	m	struct:CS_EXT_WII_S	access:public
+button_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				button_count;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+button_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				button_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+buttons	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*buttons;$/;"	m	struct:CS_EXT_CONTROL_S	access:public
+buttons	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				*buttons;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+c	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    char 	*c;$/;"	m	union:CS_CT_S	access:public
+cglXIDPool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    cglXIDPool(int start_id = 0);$/;"	p	class:cglXIDPool	access:public	signature:(int start_id = 0)
+cglXIDPool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^class cglXIDPool$/;"	c
+cglXIDPool::base_id_range	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    int		base_id_range;$/;"	m	class:cglXIDPool	access:private
+cglXIDPool::cglXIDPool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    cglXIDPool(int start_id = 0);$/;"	p	class:cglXIDPool	access:public	signature:(int start_id = 0)
+cglXIDPool::getID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    int getID(void);$/;"	p	class:cglXIDPool	access:public	signature:(void)
+cglXIDPool::id_pool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    std::list<int> id_pool;$/;"	m	class:cglXIDPool	access:private
+cglXIDPool::returnID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    void returnID(int id);$/;"	p	class:cglXIDPool	access:public	signature:(int id)
+cglXIDPool::~cglXIDPool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    ~cglXIDPool();$/;"	p	class:cglXIDPool	access:public	signature:()
+cglXServer	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cglXServer(cs_hci_type_E type = CS_HCI_UNDEF, int port=-1, cs_serv_mode_E mode = CS_SERV_PASSIVE);$/;"	p	class:cglXServer	access:public	signature:(cs_hci_type_E type = CS_HCI_UNDEF, int port=-1, cs_serv_mode_E mode = CS_SERV_PASSIVE)
+cglXServer	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^class cglXServer$/;"	c
+cglXServer::cglXServer	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cglXServer(cs_hci_type_E type = CS_HCI_UNDEF, int port=-1, cs_serv_mode_E mode = CS_SERV_PASSIVE);$/;"	p	class:cglXServer	access:public	signature:(cs_hci_type_E type = CS_HCI_UNDEF, int port=-1, cs_serv_mode_E mode = CS_SERV_PASSIVE)
+cglXServer::clientnum	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 				clientnum;$/;"	m	class:cglXServer	access:private
+cglXServer::connectRequest	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool 	connectRequest(char *IP=NULL, int World=-1);$/;"	p	class:cglXServer	access:public	signature:(char *IP=NULL, int World=-1)
+cglXServer::cserver	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cglXServerCore		*cserver;$/;"	m	class:cglXServer	access:private
+cglXServer::disconnectRequest	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool	disconnectRequest(char *IP=NULL, int World=-1);$/;"	p	class:cglXServer	access:public	signature:(char *IP=NULL, int World=-1)
+cglXServer::getContactPort	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int	getContactPort(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+cglXServer::getMode	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cs_serv_mode_E 	getMode(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+cglXServer::getNumClients	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	getNumClients(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+cglXServer::getType	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cs_hci_type_E 	getType(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+cglXServer::inUse	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool 	inUse(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_CONTROL_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_CONTROL_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_CUSTOM_P    data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_CUSTOM_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_GYRO_P 		data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_GYRO_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_KBEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_KBEVENT_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MEVENT_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MOTION_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MOTION_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MULTIT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MULTIT_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_SMEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_SMEVENT_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_TRACK_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_TRACK_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_WII_P 		data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_WII_P data=NULL, int _client_handle = -1)
+cglXServer::sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(char *msg=NULL, int size=0, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(char *msg=NULL, int size=0, int _client_handle = -1)
+cglXServer::sendDiagnosticData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual int sendDiagnosticData(cs_hci_type_E type = CS_HCI_UNDEF);$/;"	p	class:cglXServer	access:public	signature:(cs_hci_type_E type = CS_HCI_UNDEF)
+cglXServer::setWaitTime	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    void	setWaitTime(int pps);$/;"	p	class:cglXServer	access:public	signature:(int pps)
+cglXServer::shutdown	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    void	shutdown();$/;"	p	class:cglXServer	access:public	signature:()
+cglXServer::signal_alive	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_alive(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)
+cglXServer::signal_clientdata	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_clientdata(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1, unsigned char *data = NULL, unsigned int size = 0)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1, unsigned char *data = NULL, unsigned int size = 0)
+cglXServer::signal_connected	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_connected(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1 )$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1 )
+cglXServer::signal_disconnected	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_disconnected(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)
+cglXServer::talklevel	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int                 talklevel;$/;"	m	class:cglXServer	access:private
+cglXServer::valid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool				valid;$/;"	m	class:cglXServer	access:private
+cglXServer::~cglXServer	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual ~cglXServer();$/;"	p	class:cglXServer	access:public	signature:()
+cglxarg_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxarg_E{CGLX_ARG_NDEF=0,CGLX_ARG_HINT=1,CGLX_ARG_FORCE=2};$/;"	g
+cglxbitcomp_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{CGLX_BF_OR=0,CGLX_BF_AND=1}cglxbitcomp_E;$/;"	t	typeref:enum:__anon2
+cglxdevstate_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}cglxdevstate_E;$/;"	t	typeref:enum:__anon3
+cglxsnap_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cglxsnap_E{CGLX_SNAP_TMP=0,CGLX_SNAP_IMG=1, CGLX_SNAP_BACKGROUND=2};$/;"	g
+clientnum	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 				clientnum;$/;"	m	class:cglXServer	access:private
+cmtype_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^}cmtype_E;$/;"	t	typeref:enum:__anon4
+connectRequest	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool 	connectRequest(char *IP=NULL, int World=-1);$/;"	p	class:cglXServer	access:public	signature:(char *IP=NULL, int World=-1)
+contact_port	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				contact_port;$/;"	m	struct:CS_DEVICE_S	access:public
+cs_hci_type_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cs_hci_type_E$/;"	g
+cs_serv_mode_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cs_serv_mode_E$/;"	g
+cs_stream_notify_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum cs_stream_notify_E$/;"	g
+cserver	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cglXServerCore		*cserver;$/;"	m	class:cglXServer	access:private
+culltype_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^enum culltype_E {CULL_REL=0,CULL_ABS=1};$/;"	g
+d	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	double	d[4];$/;"	m	union:CS_CM_S	access:public
+d	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    double	*d;$/;"	m	union:CS_CT_S	access:public
+data	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	CS_CM_S data;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+data_port	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				data_port;$/;"	m	struct:CS_DEVICE_S	access:public
+disconnectRequest	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool	disconnectRequest(char *IP=NULL, int World=-1);$/;"	p	class:cglXServer	access:public	signature:(char *IP=NULL, int World=-1)
+etime	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    double			etime;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+fid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		fid;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+getContactPort	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int	getContactPort(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+getID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    int getID(void);$/;"	p	class:cglXIDPool	access:public	signature:(void)
+getMode	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cs_serv_mode_E 	getMode(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+getNumClients	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	getNumClients(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+getType	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    cs_hci_type_E 	getType(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			height;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			height;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+height	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		height;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+hostname	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    std::string		hostname;$/;"	m	struct:CS_DEVICE_S	access:public
+i	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int		i[8];$/;"	m	union:CS_CM_S	access:public
+i	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int		*i;$/;"	m	union:CS_CT_S	access:public
+id_pool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    std::list<int> id_pool;$/;"	m	class:cglXIDPool	access:private
+inUse	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool 	inUse(void);$/;"	p	class:cglXServer	access:public	signature:(void)
+ir_x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ir_x;$/;"	m	struct:CS_EXT_WII_S	access:public
+ir_y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ir_y;$/;"	m	struct:CS_EXT_WII_S	access:public
+keycode	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	keycode;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+len	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				len;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;	\/\/ modifier and state$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;	\/\/ modifier and state$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+mask	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int 	mask;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+maxX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			maxX;$/;"	m	struct:CS_MT_BLOB_S	access:public
+maxY	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			maxY;$/;"	m	struct:CS_MT_BLOB_S	access:public
+minX	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			minX;$/;"	m	struct:CS_MT_BLOB_S	access:public
+minY	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			minY;$/;"	m	struct:CS_MT_BLOB_S	access:public
+msg	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    char			*msg;$/;"	m	struct:CS_EXT_CUSTOM_S	access:public
+no_response	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				no_response;$/;"	m	struct:CS_DEVICE_S	access:public
+num	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				num;$/;"	m	struct:CS_EXT_MULTIT_S	access:public
+ol_obj_E	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^typedef enum{OL_NDEF=-1,OL_POINTER=0,OL_WALL_AREA=1,OL_STREAMS=2}ol_obj_E;$/;"	t	typeref:enum:__anon1
+p	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			p[3];$/;"	m	struct:CS_TRACK_BODY_S	access:public
+pl	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    CS_CT_S 		pl;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+pres	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			pres;$/;"	m	struct:CS_MT_BLOB_S	access:public
+r	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			r[3];$/;"	m	struct:CS_TRACK_BODY_S	access:public
+ref	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				ref;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+returnID	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    void returnID(int id);$/;"	p	class:cglXIDPool	access:public	signature:(int id)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_CONTROL_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_CONTROL_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_CUSTOM_P    data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_CUSTOM_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_GYRO_P 		data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_GYRO_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_KBEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_KBEVENT_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MEVENT_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MOTION_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MOTION_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_MULTIT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_MULTIT_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_SMEVENT_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_SMEVENT_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_TRACK_P 	data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_TRACK_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(CS_EXT_WII_P 		data=NULL, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(CS_EXT_WII_P data=NULL, int _client_handle = -1)
+sendData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int 	sendData(char *msg=NULL, int size=0, int _client_handle = -1);$/;"	p	class:cglXServer	access:public	signature:(char *msg=NULL, int size=0, int _client_handle = -1)
+sendDiagnosticData	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual int sendDiagnosticData(cs_hci_type_E type = CS_HCI_UNDEF);$/;"	p	class:cglXServer	access:public	signature:(cs_hci_type_E type = CS_HCI_UNDEF)
+serv_class	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_serv_mode_E	serv_class;$/;"	m	struct:CS_DEVICE_S	access:public
+setWaitTime	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    void	setWaitTime(int pps);$/;"	p	class:cglXServer	access:public	signature:(int pps)
+shutdown	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    void	shutdown();$/;"	p	class:cglXServer	access:public	signature:()
+signal_alive	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_alive(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)
+signal_clientdata	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_clientdata(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1, unsigned char *data = NULL, unsigned int size = 0)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1, unsigned char *data = NULL, unsigned int size = 0)
+signal_connected	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_connected(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1 )$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1 )
+signal_disconnected	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual void signal_disconnected(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)$/;"	f	class:cglXServer	access:public	signature:(const int PID = -1, const char *IP=NULL, const int World=-1, const int UID=-1)
+size	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				size;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+state	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cglxdevstate_E	state;$/;"	m	struct:CS_DEVICE_S	access:public
+status	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_stream_notify_E	status;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+talklevel	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    int                 talklevel;$/;"	m	class:cglXServer	access:private
+tid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		tid;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^	int type;$/;"	m	struct:CS_CUSTOM_MSG_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    cs_hci_type_E	type;$/;"	m	struct:CS_DEVICE_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+type	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			type;$/;"	m	struct:CS_SYNC_DATA_S	access:public
+valid	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    bool				valid;$/;"	m	class:cglXServer	access:private
+valuator	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			*valuator;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+valuator_count	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int				valuator_count;$/;"	m	struct:CS_EXT_TRACK_S	access:public
+width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			width;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			width;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+width	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    unsigned int		width;$/;"	m	struct:CS_EXT_STREAM_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			x;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+x	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			x;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+xa	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			xa;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_KBEVENT_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_MEVENT_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float 			y;$/;"	m	struct:CS_EXT_MOTION_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_CONFIGURE_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_CROSSING_S	access:public
+y	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    int 			y;$/;"	m	struct:CS_EXT_EXPOSE_S	access:public
+ya	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			ya;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+za	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXExt.h	/^    float			za;$/;"	m	struct:CS_EXT_GYRO_S	access:public
+~cglXIDPool	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXIDPool.h	/^    ~cglXIDPool();$/;"	p	class:cglXIDPool	access:public	signature:()
+~cglXServer	/Users/toshiro/Code/toyamada/MaxMSP/MaxCGLXServer/Frameworks/cglXnet.framework/Headers/cglXNet.h	/^    virtual ~cglXServer();$/;"	p	class:cglXServer	access:public	signature:()

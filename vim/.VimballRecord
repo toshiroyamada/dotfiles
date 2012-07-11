@@ -1,0 +1,2 @@
+supertab.vba: call delete('/Users/toshiro/.vim/doc/supertab.txt')|call delete('/Users/toshiro/.vim/plugin/supertab.vim')
+ctags_highlighting.vba: call delete('/Users/toshiro/.vim/plugin/ctags_highlighting.vim')|call delete('/Users/toshiro/.vim/mktypes.py')|call delete('/Users/toshiro/.vim/extra_source/mktypes/setup.py')|call delete('/Users/toshiro/.vim/doc/ctags_highlighting.txt')

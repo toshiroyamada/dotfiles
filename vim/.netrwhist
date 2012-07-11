@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Library/Ruby/Gems/1.8/gems/jekyll-0.11.0'
+let g:netrw_dirhist_2='/Users/toshiro/.dropboxes/ty1046@gmail.com/Dropbox/Programming/Code/projectEuler.net/c'
+let g:netrw_dirhist_3='/Users/toshiro/.dropboxes/ty1046@gmail.com/Dropbox/Programming/dotfiles/vim'
