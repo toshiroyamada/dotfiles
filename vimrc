@@ -98,7 +98,7 @@
   command! -nargs=0 -bar D1 call DevWindow(1)
   command! -nargs=0 -bar D2 call DevWindow(2)
   command! -nargs=0 -bar DC call DevClose()
-  command! -nargs=1 -bar LoadTag call LoadCTag("<args>")
+  command! -nargs=1 -bar LoadTag call LoadCTag(<q-args>)
 " }
 
 " General {
@@ -236,10 +236,10 @@ if has("gui_running")
         set guifont=Consolas:h11
     elseif has("unix")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ 10
+        set guifont=DejaVu\ Sans\ Mono\ 9
     elseif has("linux")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ 10
+        set guifont=DejaVu\ Sans\ Mono\ 9
     endif
 
     " MacVim options
@@ -340,8 +340,12 @@ endif
   " TagList {
     if has("win32")
       let g:Tlist_Ctags_Cmd = "$HOME\bin\ctags.exe"
-    else
+    elseif has("linux")
+      let g:Tlist_Ctags_Cmd = "/usr/bin/ctags"
+    elseif has("mac")
       let g:Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
+    else
+      let g:Tlist_Ctags_Cmd = "/usr/bin/ctags"
     endif
     let g:tlist_cpp_settings = 'c++;n:namespace;v:variable;d:macro;t:typedef;f:function;p:prototype;s:struct'
     let g:tlist_c_settings = 'c;d:macro;g:enum;s:struct;u:union;t:typedef;f:function;p:prototype'
