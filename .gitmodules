@@ -1,0 +1,64 @@
+[submodule "vim/bundle/ack.vim"]
+	path = vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim
+  ignore = untracked
+[submodule "vim/bundle/cocoa.vim"]
+	path = vim/bundle/cocoa.vim
+	url = git://github.com/msanders/cocoa.vim.git
+  ignore = untracked
+[submodule "vim/bundle/hammer.vim"]
+	path = vim/bundle/hammer.vim
+	url = https://github.com/matthias-guenther/hammer.vim
+  ignore = untracked
+[submodule "vim/bundle/minibufexpl.vim"]
+	path = vim/bundle/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim.git
+  ignore = untracked
+[submodule "vim/bundle/nerdcommenter"]
+	path = vim/bundle/nerdcommenter
+	url = http://github.com/scrooloose/nerdcommenter.git
+  ignore = untracked
+[submodule "vim/bundle/nerdtree"]
+	path = vim/bundle/nerdtree
+	url = http://github.com/scrooloose/nerdtree.git
+  ignore = untracked
+[submodule "vim/bundle/pyflakes-vim"]
+	path = vim/bundle/pyflakes-vim
+	url = https://github.com/kevinw/pyflakes-vim
+  ignore = untracked
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+  ignore = untracked
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = git://github.com/tpope/vim-fugitive.git
+  ignore = untracked
+[submodule "vim/bundle/vim-ipython"]
+	path = vim/bundle/vim-ipython
+	url = https://github.com/ivanov/vim-ipython.git
+  ignore = untracked
+[submodule "vim/bundle/vim-ragtag"]
+	path = vim/bundle/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+  ignore = untracked
+[submodule "vim/bundle/vim-rails"]
+	path = vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+  ignore = untracked
+[submodule "vim/bundle/vim-repeat"]
+	path = vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+  ignore = untracked
+[submodule "vim/bundle/vim-slime"]
+	path = vim/bundle/vim-slime
+	url = https://github.com/jpalardy/vim-slime.git
+  ignore = untracked
+[submodule "vim/bundle/vim-speeddating"]
+	path = vim/bundle/vim-speeddating
+	url = https://github.com/tpope/vim-speeddating
+  ignore = untracked
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = http://github.com/tpope/vim-surround.git
+  ignore = untracked

@@ -191,7 +191,7 @@ endif
     set textwidth=79
     set formatoptions=qrn1
     if version >= 703
-        set colorcolumn=81
+        "set colorcolumn=81
     endif
     " highlight the text that's over 80 characters
     "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
