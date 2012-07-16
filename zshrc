@@ -354,7 +354,7 @@ bindkey "^[[6~" down-line-or-history
 # bindkey "^[[F"  end-of-line
 # bindkey "^[[4~" end-of-line
 bindkey ' ' magic-space    # also do history expansion on space
-bindkey '^I' complete-word # complete on tab, leave expansion to _expand
+#bindkey '^I' complete-word # complete on tab, leave expansion to _expand
 
 stty erase ^H &>/dev/null
 bindkey "^[[3~" delete-char
