@@ -177,6 +177,7 @@ endif
     set showcmd	" display incomplete commands
     set ruler " show the cursor position all the time
     set wrap " wrap text
+    set t_kb=
 
     " allow backspacing over everything in insert mode
     set backspace=indent,eol,start
