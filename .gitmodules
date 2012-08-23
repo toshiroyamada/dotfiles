@@ -65,3 +65,6 @@
 [submodule "vim/bundle/YankRing.vim"]
 	path = vim/bundle/YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "vim/bundle/dwm.vim"]
+	path = vim/bundle/dwm.vim
+	url = https://github.com/spolu/dwm.vim.git
