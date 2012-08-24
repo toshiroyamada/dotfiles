@@ -67,4 +67,4 @@
 	url = https://github.com/vim-scripts/YankRing.vim.git
 [submodule "vim/bundle/dwm.vim"]
 	path = vim/bundle/dwm.vim
-	url = https://github.com/spolu/dwm.vim.git
+	url = git@github.com:toshiroyamada/dwm.vim.git
