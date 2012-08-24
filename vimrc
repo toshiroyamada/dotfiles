@@ -197,6 +197,9 @@ endif
     " highlight the text that's over 80 characters
     "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
     "match OverLength /\%81v.\+/
+
+    set foldmethod=indent
+    set nofoldenable
 " }
 
 
