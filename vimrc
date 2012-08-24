@@ -1,5 +1,5 @@
 " .vimrc
-" Toshiro Yamada (updated Jan. 27, 2011)
+" Toshiro Yamada (updated Aug. 23, 2012)
 
 " Basics {
     set nocompatible " explicitly get out of vi-compatible mode
@@ -313,11 +313,11 @@ endif
         " Create a new vertical split. Disable when using dwm.vim.
         "map <C-w>n <C-w>v<C-w>l 
         
-        " Window navigation
-        map <C-h> <C-w>h
-        map <C-j> <C-w>j
-        map <C-k> <C-w>k
-        map <C-l> <C-w>l
+        " Window navigation. Disable when using dwm.vim.
+        "map <C-h> <C-w>h
+        "map <C-j> <C-w>j
+        "map <C-k> <C-w>k
+        "map <C-l> <C-w>l
     " }
 
     " Tab {
@@ -392,15 +392,6 @@ endif
     let g:NERDChristmasTree=1
     let g:NERDTreeIgnore=['\.rbc$','\~$','\.o$']
     "set winfixwidth
-  " }
-
-  " DWM {
-    " I want to only map the four basic dwm shortcuts
-    let g:dmw_map_keys=0
-    map <C-n> :call DWM_New()<CR>
-    map <C-c> :call DWM_Close()<CR>
-    map <C-h> :call DWM_Focus()<CR>
-    map <C-l> :call DWM_Full()<CR>
   " }
 
   " bufExplorer {
