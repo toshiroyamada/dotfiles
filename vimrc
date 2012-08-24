@@ -216,7 +216,7 @@ endif
 
     set hlsearch " highlight search terms
     set showmatch
-    set nowrapscan " don't wrap around
+    "set nowrapscan " don't wrap around
 
     " Apply subsititions globally on lines
     " :%s/foo/bar/ instead of :%s/foo/bar/g
@@ -394,6 +394,16 @@ endif
     "set winfixwidth
   " }
 
+  " dwm.vim {
+    let g:dwm_map_keys = 0
+    nmap <C-N> :DWMNew<cr>
+    nmap <C-C> :DWMClose<cr>
+    nmap <C-H> :DWMFocus<cr>
+    nmap <C-L> :DWMFull<cr>
+    nmap <C-J> <C-W>w<cr>
+    nmap <C-K> <C-W>W<cr>
+  " }
+
   " bufExplorer {
     let g:bufExplorerShowRelativePath = 1
   " }
@@ -412,5 +422,11 @@ endif
 
   " vim-ragtag {
     let g:ragtag_global_maps = 1
+  " }
+
+  " YankRing {
+    " Disable some of the keyboard shortcuts
+    let g:yankring_replace_n_nkey = ''
+    let g:yankring_replace_n_pkey = ''
   " }
 " }
