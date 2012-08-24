@@ -205,13 +205,19 @@ endif
     " If string contains at least one uppercase, search case-sensitive.
     set ignorecase
     set smartcase
-    set incsearch " do incremental searching
+
+    " Do incremental searching. 
+    " CTRL-L to insert next character from the match
+    " CTRL-R CTRL-W to complete the current matching word
+    set incsearch 
+
     set hlsearch " highlight search terms
     set showmatch
-    "set wrapscan " wrap search when EOF is reached
+    set nowrapscan " don't wrap around
+
     " Apply subsititions globally on lines
     " :%s/foo/bar/ instead of :%s/foo/bar/g
-    " set gdefault
+    "set gdefault
 " }
 
 " GUI {
@@ -264,6 +270,8 @@ endif
     "vnoremap <tab> %
 
     " Use very magical search (Python/Perl/etc. Reg Exp style)
+    " Everything except letters, numbers and underscores are special characters
+    " http://briancarper.net/blog/448/vim-regexes-are-awesome
     nnoremap / /\v
     vnoremap / /\v
 
@@ -276,14 +284,20 @@ endif
     " <leader> {
         let mapleader=","
         nmap <leader><space> :noh<cr> " clear highlighted text
+
+        " Open and reload vimrc file
         if has("win32")
-          nmap <leader>v :sp $HOME\_vimrc<cr><C-w> " open _vimrc file
-          nmap <silent> <leader>V :source $HOME\_vimrc<cr> " reload _vimrc file
+          nmap <leader>v :sp $HOME\_vimrc<cr><C-w>
+          nmap <silent> <leader>V :source $HOME\_vimrc<cr>
         else
-          nmap <leader>v :sp ~/.vimrc<cr><C-w> " open .vimrc file
-          nmap <silent> <leader>V :source ~/.vimrc<cr> " reload .vimrc file
+          nmap <leader>v :sp ~/.vimrc<cr><C-w>
+          nmap <silent> <leader>V :source ~/.vimrc<cr>
         endif
-        nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr> " remove trailing spaces
+
+        " Remove trailing spaces
+        nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr> 
+
+        " Plugin shortcuts
         nmap <leader>a :A<cr>
         map <leader>nn :NERDTree<cr>
         map <leader>nc :NERDTreeClose<cr>
@@ -293,7 +307,9 @@ endif
     " }
 
     " Window {
-        map <C-w>n <C-w>v<C-w>l " Create a new vertical split
+        " Create a new vertical split. Disable when using dwm.vim.
+        "map <C-w>n <C-w>v<C-w>l 
+        
         " Window navigation
         map <C-h> <C-w>h
         map <C-j> <C-w>j
@@ -305,8 +321,8 @@ endif
         map <leader>tn :tabnew<cr>
         map <leader>te :tabedit<cr>
         map <leader>tc :tabclose<cr>
-        " map gt :tabnext<cr>
-        " map gT :tabprev<cr>
+        "map gt :tabnext<cr>
+        "map gT :tabprev<cr>
     " }
 
     " Replace :bd with :Kwbd
@@ -318,7 +334,7 @@ endif
     "autocmd FocusLost * :wa
 
     " Omnicomplete functions
-    "autocmd FileType python set omnifunc=pythoncomplete#Complete
+    autocmd FileType python set omnifunc=pythoncomplete#Complete
     autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
     autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
     autocmd FileType css set omnifunc=csscomplete#CompleteCSS
@@ -373,6 +389,15 @@ endif
     let g:NERDChristmasTree=1
     let g:NERDTreeIgnore=['\.rbc$','\~$','\.o$']
     "set winfixwidth
+  " }
+
+  " DWM {
+    " I want to only map the four basic dwm shortcuts
+    let g:dmw_map_keys=0
+    map <C-n> :call DWM_New()<CR>
+    map <C-c> :call DWM_Close()<CR>
+    map <C-h> :call DWM_Focus()<CR>
+    map <C-l> :call DWM_Full()<CR>
   " }
 
   " bufExplorer {
