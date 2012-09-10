@@ -256,6 +256,7 @@ if has("gui_running")
     "set transparency=5
 
     set guioptions-=T     " remove toolbar
+    set guioptions-=m     " remove menubar
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
 
