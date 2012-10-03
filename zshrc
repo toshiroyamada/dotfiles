@@ -178,6 +178,7 @@ common_paths=(
   /usr/local/cuda/bin                         # cuda
   /usr/local/mongodb/bin                      # MondoDB
 	${HOME}/bin                                 # personal stuff
+  ${HOME}/code/scripts
 	/usr/local/bin /usr/local/sbin
   /bin /sbin 
   /usr/bin /usr/sbin
@@ -321,6 +322,8 @@ fi
 
 # alias offlineimap-tty='offlineimap -u TTY.TTYUI'
 # alias hnb-partecs='hnb $HOME/partecs/partecs-hnb.xml'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
 
 # # --------------------------------------------------------------------
 # # Key bindings
