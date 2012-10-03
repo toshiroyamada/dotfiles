@@ -23,7 +23,7 @@
         set colorcolumn=73
       endif
       " wrap doesn't work in the console for some reason...
-      set wrap 
+      set wrap
       " make sure position is set at the beginning
       call setpos('.', [0, 1, 1, 0])
     endfunction
@@ -209,10 +209,10 @@ endif
     set ignorecase
     set smartcase
 
-    " Do incremental searching. 
+    " Do incremental searching.
     " CTRL-L to insert next character from the match
     " CTRL-R CTRL-W to complete the current matching word
-    set incsearch 
+    set incsearch
 
     set hlsearch " highlight search terms
     set showmatch
@@ -256,6 +256,7 @@ if has("gui_running")
     "set transparency=5
 
     set guioptions-=T     " remove toolbar
+    set guioptions-=m     " remove menubar
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
 
@@ -298,7 +299,7 @@ endif
         endif
 
         " Remove trailing spaces
-        nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr> 
+        nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
 
         " Plugin shortcuts
         nmap <leader>a :A<cr>
@@ -311,8 +312,8 @@ endif
 
     " Window {
         " Create a new vertical split. Disable when using dwm.vim.
-        "map <C-w>n <C-w>v<C-w>l 
-        
+        "map <C-w>n <C-w>v<C-w>l
+
         " Window navigation. Disable when using dwm.vim.
         "map <C-h> <C-w>h
         "map <C-j> <C-w>j
@@ -428,5 +429,10 @@ endif
     " Disable some of the keyboard shortcuts
     let g:yankring_replace_n_nkey = ''
     let g:yankring_replace_n_pkey = ''
+  " }
+
+  " xiki {
+    "let $XIKI_DIR = "/Users/toshiro/.xiki"
+    "source /Users/toshiro/.xiki/etc/vim/xiki.vim
   " }
 " }
