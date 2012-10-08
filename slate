@@ -45,18 +45,18 @@ bind down:cmd;alt;ctrl;shift  throw down  #resize
 bind esc:cmd hint
 
 # Snapshot
-bind 1:cmd:ctrl;alt   snapshot          snapshot1 save-to-disk
-bind 2:cmd:ctrl;alt   snapshot          snapshot2 save-to-disk
-bind 3:cmd:ctrl;alt   snapshot          snapshot3 save-to-disk
-bind 4:cmd:ctrl;alt   snapshot          snapshot4 save-to-disk
-bind 1:cmd:alt        activate-snapshot snapshot1
-bind 2:cmd:alt        activate-snapshot snapshot2
-bind 3:cmd:alt        activate-snapshot snapshot3
-bind 4:cmd:alt        activate-snapshot snapshot4 
-bind 1:cmd:alt;shift  delete-snapshot   snapshot1 all
-bind 2:cmd:alt;shift  delete-snapshot   snapshot2 all
-bind 3:cmd:alt;shift  delete-snapshot   snapshot3 all
-bind 4:cmd:alt;shift  delete-snapshot   snapshot4 all
+bind 1:cmd;ctrl;alt   snapshot          snapshot1 save-to-disk
+bind 2:cmd;ctrl;alt   snapshot          snapshot2 save-to-disk
+bind 3:cmd;ctrl;alt   snapshot          snapshot3 save-to-disk
+bind 4:cmd;ctrl;alt   snapshot          snapshot4 save-to-disk
+bind 1:cmd;alt        activate-snapshot snapshot1
+bind 2:cmd;alt        activate-snapshot snapshot2
+bind 3:cmd;alt        activate-snapshot snapshot3
+bind 4:cmd;alt        activate-snapshot snapshot4 
+bind 1:cmd;alt;shift  delete-snapshot   snapshot1 all
+bind 2:cmd;alt;shift  delete-snapshot   snapshot2 all
+bind 3:cmd;alt;shift  delete-snapshot   snapshot3 all
+bind 4:cmd;alt;shift  delete-snapshot   snapshot4 all
 
 # Better application switch?
-bind tab:cmd switch
+#bind tab:cmd switch
