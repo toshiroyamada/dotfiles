@@ -124,7 +124,7 @@ unsetopt flow_control       # if unset, output flow control via start/stop
 #setopt mail_warning
 #setopt path_dirs
 #setopt print_eight_bit
-setopt print_exit_value     # print exit value of programs with non-zero exit
+#setopt print_exit_value     # print exit value of programs with non-zero exit
 #setopt rc_quotes
 #setopt rm_star_silent       # don't ask before executing 'rm *' or 'rm path/*'
 #setopt rm_star_wait         # wait 10 seconds before querying above rm cmd
@@ -410,5 +410,5 @@ promptinit
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
 
-unsetopt auto_name_dirs
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && \. "$HOME/.rvm/scripts/rvm" # Load RVM function
+#unsetopt auto_name_dirs
+#[[ -s "$HOME/.rvm/scripts/rvm" ]] && \. "$HOME/.rvm/scripts/rvm" # Load RVM function
