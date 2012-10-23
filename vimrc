@@ -167,9 +167,16 @@ endif
 
     autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
 
-    set encoding=utf-8
-    set fenc=utf-8
-    set tenc=utf-8
+    if has("multi_byte")
+      if &termencoding == ""
+        lef &termencoding = &encoding
+      endif
+      scriptencoding utf-8
+      set encoding=utf-8
+      setglobal fileencoding=utf-8
+      set fileencoding=utf-8
+    endif
+
     "set linebreak " don't break words
     set scrolloff=3 " keep n lines above and below the cursor if possible
     set autoindent
@@ -200,6 +207,8 @@ endif
 
     set foldmethod=indent
     set nofoldenable
+
+    set listchars=trail:·,precedes:«,extends:»,tab:▸\ ,eol:↲
 " }
 
 
