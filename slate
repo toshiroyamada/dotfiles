@@ -41,8 +41,13 @@ bind left:cmd;alt;ctrl;shift  throw left  #resize
 bind up:cmd;alt;ctrl;shift    throw up    #resize
 bind down:cmd;alt;ctrl;shift  throw down  #resize
 
+# Focus Bindings
+config focusPreferSameApp false
+bind `:cmd;alt        focus behind 
+# TODO: Need a better way to toggle through windows hidden behind
+
 # Window Hints
-bind esc:cmd hint
+bind esc:cmd hint ]'/[;.pl,
 
 # Snapshot
 bind 1:cmd;ctrl;alt   snapshot          snapshot1 save-to-disk
