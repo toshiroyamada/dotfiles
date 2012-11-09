@@ -65,3 +65,6 @@
 [submodule "vim/bundle/dwm.vim"]
 	path = vim/bundle/dwm.vim
 	url = git@github.com:toshiroyamada/dwm.vim.git
+[submodule "vim/bundle/vim-processing"]
+	path = vim/bundle/vim-processing
+	url = https://github.com/sophacles/vim-processing.git
