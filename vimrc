@@ -320,7 +320,7 @@ endif
     " }
 
     " Window {
-        " Create a new vertical split. Disable when using dwm.vim.
+        " Create a new vertical split. Disable in favor of dwm.vim.
         "map <C-w>n <C-w>v<C-w>l
 
         " Window navigation. Disable when using dwm.vim.
@@ -337,6 +337,14 @@ endif
         "map gt :tabnext<cr>
         "map gT :tabprev<cr>
     " }
+
+    " For inserting current time
+    noremap <F1> "=strftime("%Y/%m/%d")<CR>P
+    inoremap <F1> <C-R>=strftime("%Y/%m/%d")<CR>
+    noremap <F2> "=strftime("%Y/%m/%d %H:%M:%S")<CR>P
+    inoremap <F2> <C-R>=strftime("%Y/%m/%d %H:%M:%S")<CR>
+    noremap <F5> "=strftime("%FT%T")<CR>P
+    inoremap <F2> <C-R>=strftime("%FT%T")<CR>
 
     " Replace :bd with :Kwbd
     cnoremap <expr> bd (getcmdtype() == ':' ? 'Kwbd' : 'bd')
@@ -438,6 +446,12 @@ endif
     " Disable some of the keyboard shortcuts
     let g:yankring_replace_n_nkey = ''
     let g:yankring_replace_n_pkey = ''
+  " }
+
+  " vim-processing {
+    let g:processing_doc_style='local'
+    "let g:processing_doc_path='file:///Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
+    let g:processing_doc_path='/Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
   " }
 
   " xiki {
