@@ -47,7 +47,9 @@ bind `:cmd;alt        focus behind
 # TODO: Need a better way to toggle through windows hidden behind
 
 # Window Hints
-bind esc:cmd hint ]'/[;.pl,
+config windowHintsSpread true
+config windowHintsIgnoreHiddenWindows true
+bind esc:cmd hint jkl;m,./
 
 # Snapshot
 bind 1:cmd;ctrl;alt   snapshot          snapshot1 save-to-disk
