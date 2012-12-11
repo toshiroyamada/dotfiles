@@ -48,8 +48,8 @@ bind `:cmd;alt        focus behind
 
 # Window Hints
 config windowHintsSpread true
-config windowHintsIgnoreHiddenWindows true
-bind esc:cmd hint jkl;m,./
+config windowHintsIgnoreHiddenWindows false
+bind esc:cmd hint
 
 # Snapshot
 bind 1:cmd;ctrl;alt   snapshot          snapshot1 save-to-disk
