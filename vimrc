@@ -155,9 +155,9 @@ endif
 
 " Text Formatting/Layout {
     " Set tab to space of 2
-    set tabstop=2
-    set shiftwidth=2
-    set softtabstop=2
+    set tabstop=4
+    set shiftwidth=4
+    set softtabstop=4
     set expandtab
 
     if has('breakindent')
@@ -415,7 +415,7 @@ endif
   " dwm.vim {
     let g:dwm_map_keys = 0
     nmap <C-N> :DWMNew<cr>
-    nmap <C-C> :DWMClose<cr>
+    nmap <C-Q> :DWMClose<cr>
     nmap <C-H> :DWMFocus<cr>
     nmap <C-L> :DWMFull<cr>
     nmap <C-J> <C-W>w<cr>
