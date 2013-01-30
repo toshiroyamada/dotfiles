@@ -255,10 +255,10 @@ if has("gui_running")
         set guifont=Consolas:h11
     elseif has("unix")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ 9
+        set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
     elseif has("linux")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ 9
+        set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
     endif
 
     " MacVim options
