@@ -412,3 +412,19 @@ zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
 
 #unsetopt auto_name_dirs
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && \. "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+
+# # --------------------------------------------------------------------
+# # Improve tab completion for git
+# # --------------------------------------------------------------------
+# http://stackoverflow.com/questions/9810327/git-tab-autocompletion-is-useless-can-i-turn-it-off-or-optimize-it
+__git_files () { 
+    _wanted files expl 'local files' _files     
+}
+
+# # --------------------------------------------------------------------
+# # Sourcing extra setups
+# # --------------------------------------------------------------------
+if [[ -e ~/.zsh_extras ]]; then
+    source ~/.zsh_extras
+fi
