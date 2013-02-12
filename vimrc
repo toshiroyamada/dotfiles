@@ -366,6 +366,7 @@ endif
     " Syntax
     autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
     autocmd BufRead,BufNewFile *.txt call s:SetupTextEdit()
+    autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
 
     " Git-commit textwidth wrapper
     autocmd FileType gitcommit call s:SetupGitCommit()
