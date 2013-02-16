@@ -165,8 +165,6 @@ endif
       set showbreak=..
     endif
 
-    autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
-
     if has("multi_byte")
       if &termencoding == ""
         lef &termencoding = &encoding
@@ -374,6 +372,19 @@ endif
     " Tabs
     autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
     autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
+    autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
+
+    " GZip files
+    augroup gzip
+        au BufReadPre     *.GZ setlocal bin
+        au BufRead        *.GZ call gzip#read("gzip -dn")
+        au BufWritePost   *.GZ call gzip#write("gzip")
+        au FileAppendPost *.GZ call gzip#write("gzip")
+        au FileAppendPre  *.GZ call gzip#appre("gzip -dn")
+        au FileReadPost   *.GZ call gzip#read("gzip -dn")
+        au FileReadPre    *.GZ setlocal bin
+        au FileWritePost  *.GZ call gzip#write("gzip")
+    augroup END
 " }
 
 " plugins {
