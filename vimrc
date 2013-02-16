@@ -74,6 +74,8 @@
         let gen_cmd = gen_cmd . ' -R --c++-kinds=+p --fields=+aiS --extra=+q'
       elseif a:type == 'c'
         let gen_cmd = gen_cmd . ' -R --c-kinds=+p --fields=+aiS --extra=+q'
+      else
+        let gen_cmd = gen_cmd . ' -R'
       endif
 
       if gen_cmd != g:Tlist_Ctags_Cmd
@@ -154,7 +156,7 @@ endif
 " }
 
 " Text Formatting/Layout {
-    " Set tab to space of 2
+    " Set tab to space of 4
     set tabstop=4
     set shiftwidth=4
     set softtabstop=4
@@ -176,7 +178,7 @@ endif
     endif
 
     "set linebreak " don't break words
-    set scrolloff=3 " keep n lines above and below the cursor if possible
+    set scrolloff=2 " keep n lines above and below the cursor if possible
     set autoindent
     set showmode " display current editing status
     set showcmd	" display incomplete commands
@@ -208,7 +210,7 @@ endif
     set foldenable " Turn on folding
     set foldmethod=marker " Fold on the marker
     set foldlevel=100 " Don't autofold anything (but I can still fold manually)
-    set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds 
+    set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 
     set listchars=trail:·,precedes:«,extends:»,tab:▸\ ,eol:↲
 " }
@@ -227,7 +229,7 @@ endif
 
     set hlsearch " highlight search terms
     set showmatch
-    "set nowrapscan " don't wrap around
+    set nowrapscan " don't wrap around
 
     " Apply subsititions globally on lines
     " :%s/foo/bar/ instead of :%s/foo/bar/g
@@ -242,7 +244,6 @@ if has("gui_running")
     "  * midnight - dark bg, good for low light environment
     "  * molokai - dark bg, pink keyword
     "  * macvim - white bg, default macvim color
-    "
     colorscheme wombat
 
     " Set font according to system
@@ -270,9 +271,6 @@ if has("gui_running")
     set guioptions-=m     " remove menubar
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
-
-    "set lines=55
-    "set columns=85
 else
     colorscheme desert
     set bg=dark " use with dark background color
@@ -286,46 +284,42 @@ endif
     Bundle 'gmarik/vundle'
 
     " Github repos
+	Bundle 'toshiroyamada/Kwbd.vim'
+	Bundle 'toshiroyamada/dwm.vim'
     "Bundle 'fholgado/minibufexpl.vim'
-    Bundle 'ivanov/vim-ipython'
-    Bundle 'jpalardy/vim-slime'
-    Bundle 'kevinw/pyflakes-vim'
-    Bundle 'matthias-guenther/hammer.vim'
-    Bundle 'mattn/zencoding-vim'
-    Bundle 'mileszs/ack.vim'
-    Bundle 'msanders/cocoa.vim'
-    Bundle 'pangloss/vim-javascript'
+    "Bundle 'jpalardy/vim-slime'
+    "Bundle 'matthias-guenther/hammer.vim'  " markup lang to HTML
+    "Bundle 'mattn/zencoding-vim'
+    "Bundle 'msanders/cocoa.vim'
+    "Bundle 'pangloss/vim-javascript'
     "Bundle 'scrooloose/nerdcommenter'
+    "Bundle 'sophacles/vim-processing'
+    "Bundle 'tpope/vim-rails'
+    "Bundle 'tpope/vim-surround'
+    "Bundle 'tristen/vim-sparkup' " similar to zencoding
+    Bundle 'Valloric/YouCompleteMe'
+    Bundle 'ivanov/vim-ipython'
+    Bundle 'kevinw/pyflakes-vim'
+    Bundle 'mileszs/ack.vim'
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
-    Bundle 'sophacles/vim-processing'
-    "Bundle 'tpope/vim-git'
+    Bundle 'tpope/vim-commentary'
     Bundle 'tpope/vim-fugitive'
-    Bundle 'tpope/vim-five'
-    Bundle 'tpope/vim-ragtag'
-    Bundle 'tpope/vim-rails'
     Bundle 'tpope/vim-repeat'
     Bundle 'tpope/vim-speeddating'
-    Bundle 'tpope/vim-surround'
-    "Bundle 'tristen/vim-sparkup' " similar to zencoding
-	Bundle 'toshiroyamada/dwm.vim'
-	Bundle 'toshiroyamada/Kwbd.vim'
-    Bundle 'Valloric/YouCompleteMe'
 
     " vim-scripts repos
+    "Bundle 'MatlabFilesEdition'
+    "Bundle 'Pydiction'
+    "Bundle 'SuperTab-continued.'
+    "Bundle 'tComment'
+    "Bundle 'vim-scripts/compilejsl.vim'
     Bundle 'FuzzyFinder'
     Bundle 'L9'
-    Bundle 'MatlabFilesEdition'
-    Bundle 'OmniCppComplete'
-    Bundle 'Pydiction'
-    Bundle 'SuperTab-continued.'
-    Bundle 'TagHighlight'
-    Bundle 'a.vim'
-    Bundle 'compilejsl.vim'
-    Bundle 'pyflakes.vim'
-    Bundle 'tComment'
     Bundle 'taglist-plus'
-
+    Bundle 'vim-scripts/OmniCppComplete'
+    Bundle 'vim-scripts/TagHighlight'
+    Bundle 'vim-scripts/a.vim'
 " }
 
 " Mappings {
@@ -363,11 +357,6 @@ endif
 
         " Plugin shortcuts
         nmap <leader>a :A<cr>
-        map <leader>nn :NERDTree<cr>
-        map <leader>nc :NERDTreeClose<cr>
-        map <leader>ll :TlistOpen<cr>
-        map <leader>lc :TlistClose<cr>
-        "nnoremap <silent> <leader>f <Plug>VimroomToggle
     " }
 
     " Window {
@@ -382,9 +371,9 @@ endif
     " }
 
     " Tab {
-        map <leader>tn :tabnew<cr>
-        map <leader>te :tabedit<cr>
-        map <leader>tc :tabclose<cr>
+        "map <leader>tn :tabnew<cr>
+        "map <leader>te :tabedit<cr>
+        "map <leader>tc :tabclose<cr>
         "map gt :tabnext<cr>
         "map gT :tabprev<cr>
     " }
@@ -395,7 +384,7 @@ endif
     noremap <F2> "=strftime("%Y/%m/%d %H:%M:%S")<CR>P
     inoremap <F2> <C-R>=strftime("%Y/%m/%d %H:%M:%S")<CR>
     noremap <F5> "=strftime("%FT%T")<CR>P
-    inoremap <F2> <C-R>=strftime("%FT%T")<CR>
+    inoremap <F5> <C-R>=strftime("%FT%T")<CR>
 
     " Replace :bd with :Kwbd
     cnoremap <expr> bd (getcmdtype() == ':' ? 'Kwbd' : 'bd')
@@ -406,13 +395,13 @@ endif
     "autocmd FocusLost * :wa
 
     " Omnicomplete functions
-    autocmd FileType python set omnifunc=pythoncomplete#Complete
-    autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-    autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-    autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-    autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-    autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-    autocmd FileType c set omnifunc=ccomplete#Complete
+    "autocmd FileType python set omnifunc=pythoncomplete#Complete
+    "autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
+    "autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+    "autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+    "autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
+    "autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+    "autocmd FileType c set omnifunc=ccomplete#Complete
 
     " Syntax
     autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
@@ -442,6 +431,8 @@ endif
 
 " plugins {
   " TagList {
+    map <leader>ll :TlistOpen<cr>
+    map <leader>lc :TlistClose<cr>
     if has("win32")
       let g:Tlist_Ctags_Cmd = "$HOME\bin\ctags.exe"
     elseif has("linux")
@@ -470,6 +461,8 @@ endif
   " }
 
   " NERDTree {
+    map <leader>nn :NERDTree<cr>
+    map <leader>nc :NERDTreeClose<cr>
     let g:NERDTreeWinPos='right'
     let g:NERDTreeWinSize=24
     let g:NERDChristmasTree=1
@@ -502,11 +495,14 @@ endif
     "let g:processing_doc_path='file:///Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
     let g:processing_doc_path='/Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
   " }
-  
-  
+
   " tComment {
     nnoremap // :TComment<CR>
     vnoremap // :TComment<CR>
+  " }
+
+  " Pydiction {
+    let g:pydiction_location = '~/.vim/bundle/pydiction-1.2/complete-dict'
   " }
 
   " xiki {
