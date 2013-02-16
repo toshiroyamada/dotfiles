@@ -194,18 +194,18 @@ fi
 ## Paths are not added if they do not exist
 typeset -U common_paths
 common_paths=(
-  ${path} ${=$(command -p getconf PATH)//:/ } 	
-	# what the system thinks PATH should be
-	${MACPORT_HOME}/bin ${MACPORT_HOME}/sbin	  # MacPort
-	${MAGICK_HOME}/bin                          # ImageMagick
-	/opt/wireshark/bin                          # wireshark
-  /usr/local/cuda/bin                         # cuda
-  /usr/local/mongodb/bin                      # MondoDB
-	${HOME}/bin                                 # personal stuff
-  ${HOME}/code/scripts
-	/usr/local/bin /usr/local/sbin
-  /bin /sbin 
-  /usr/bin /usr/sbin
+${path} ${=$(command -p getconf PATH)//:/ } 	
+    # what the system thinks PATH should be
+    ${MACPORT_HOME}/bin ${MACPORT_HOME}/sbin	  # MacPort
+    ${MAGICK_HOME}/bin                          # ImageMagick
+    /opt/wireshark/bin                          # wireshark
+    /usr/local/cuda/bin                         # cuda
+    /usr/local/mongodb/bin                      # MondoDB
+    ${HOME}/bin                                 # personal stuff
+    ${HOME}/Code/scripts
+    /usr/local/bin /usr/local/sbin
+    /bin /sbin 
+    /usr/bin /usr/sbin
 )
 unset PATH_tmp
 unsetopt NOMATCH
