@@ -103,8 +103,6 @@
 
 " General {
     filetype off
-    call pathogen#helptags() " generate help files
-    call pathogen#runtime_append_all_bundles() " setup Pathogen
     filetype indent plugin on " load filetype plugins/indent settings
 
     set nospell " no spell check
@@ -144,6 +142,8 @@
 
     " set grep to always generate a file-name
     set grepprg=grep\ -nH\ $*
+
+    set mousehide " hide mouse after char typed
 " }
 
 " Vim UI {
@@ -203,8 +203,12 @@ endif
     "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
     "match OverLength /\%81v.\+/
 
-    set foldmethod=indent
-    set nofoldenable
+    " Folding
+    "set nofoldenable
+    set foldenable " Turn on folding
+    set foldmethod=marker " Fold on the marker
+    set foldlevel=100 " Don't autofold anything (but I can still fold manually)
+    set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds 
 
     set listchars=trail:·,precedes:«,extends:»,tab:▸\ ,eol:↲
 " }
@@ -273,6 +277,54 @@ else
     colorscheme desert
     set bg=dark " use with dark background color
 endif
+" }
+
+" Vundle {
+    set rtp+=~/.vim/bundle/vundle/
+    call vundle#rc()
+
+    Bundle 'gmarik/vundle'
+
+    " Github repos
+    "Bundle 'fholgado/minibufexpl.vim'
+    Bundle 'ivanov/vim-ipython'
+    Bundle 'jpalardy/vim-slime'
+    Bundle 'kevinw/pyflakes-vim'
+    Bundle 'matthias-guenther/hammer.vim'
+    Bundle 'mattn/zencoding-vim'
+    Bundle 'mileszs/ack.vim'
+    Bundle 'msanders/cocoa.vim'
+    Bundle 'pangloss/vim-javascript'
+    "Bundle 'scrooloose/nerdcommenter'
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'scrooloose/syntastic'
+    Bundle 'sophacles/vim-processing'
+    "Bundle 'tpope/vim-git'
+    Bundle 'tpope/vim-fugitive'
+    Bundle 'tpope/vim-five'
+    Bundle 'tpope/vim-ragtag'
+    Bundle 'tpope/vim-rails'
+    Bundle 'tpope/vim-repeat'
+    Bundle 'tpope/vim-speeddating'
+    Bundle 'tpope/vim-surround'
+    "Bundle 'tristen/vim-sparkup' " similar to zencoding
+	Bundle 'toshiroyamada/dwm.vim'
+    Bundle 'Valloric/YouCompleteMe'
+
+    " vim-scripts repos
+    Bundle 'FuzzyFinder'
+    Bundle 'L9'
+    Bundle 'MatlabFilesEdition'
+    Bundle 'OmniCppComplete'
+    Bundle 'Pydiction'
+    Bundle 'SuperTab-continued.'
+    Bundle 'TagHighlight'
+    Bundle 'a.vim'
+    Bundle 'compilejsl.vim'
+    Bundle 'pyflakes.vim'
+    Bundle 'tComment'
+    Bundle 'taglist-plus'
+
 " }
 
 " Mappings {
@@ -434,22 +486,6 @@ endif
     nmap <C-K> <C-W>W<cr>
   " }
 
-  " bufExplorer {
-    let g:bufExplorerShowRelativePath = 1
-  " }
-
-  " miniBufExplorer {
-    let g:miniBufExplSplitBelow = 1
-    let g:miniBufExplSplitToEdge = 1
-    let g:miniBufExplMapCTabSwitchBufs = 1
-    let g:miniBufExplMapCTabSwitchWindows = 0
-    let g:miniBufExplCheckDupeBufs = 1
-    let g:miniBufExplorerMoreThanOne = 0
-    let g:miniBufExplMapWindowNav = 0
-    let g:miniBufExplMapWindowNavVim = 0
-    let g:miniBufExplorerAutoUpdate = 1
-  " }
-
   " vim-ragtag {
     let g:ragtag_global_maps = 1
   " }
@@ -464,6 +500,12 @@ endif
     let g:processing_doc_style='local'
     "let g:processing_doc_path='file:///Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
     let g:processing_doc_path='/Applications/Processing.app/Contents/Resources/Java/modes/java/reference/'
+  " }
+  
+  
+  " tComment {
+    nnoremap // :TComment<CR>
+    vnoremap // :TComment<CR>
   " }
 
   " xiki {
