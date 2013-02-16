@@ -309,6 +309,7 @@ endif
     Bundle 'tpope/vim-surround'
     "Bundle 'tristen/vim-sparkup' " similar to zencoding
 	Bundle 'toshiroyamada/dwm.vim'
+	Bundle 'toshiroyamada/Kwbd.vim'
     Bundle 'Valloric/YouCompleteMe'
 
     " vim-scripts repos
