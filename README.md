@@ -1,22 +1,26 @@
 Toshiro's dotfiles
 ==================
 
-Install
--------
+Setting up vim
+--------------
 
-1.  Clone the repository
-    
-    `git clone git://github.com/toshiroyamada/dotfiles.git`
+* symlink vim to ~/.vim and vimrc to ~/.vimrc
 
-2.  Run the install script 
+    ln -s vim ~/.vimrc
+    ln -s vimrc ~/.vimrc
 
-    `./install.sh`
+* Create necessary directories
 
-    This will create a symboloic link of dotfiles in the $HOME directory.
+    mkdir vim/bundle
+    mkdir -p ~/.vimlocal/{backup,swap,undo}
 
-3.  Change shell to zsh:
+* Donwload vundle
 
-    `chsh -s zsh`
+    cd vim/bundle
+    git clone https://github.com/gmarik/vundle.git
 
-4.  Enjoy!
+* Install plugins using vundle
 
+    vim +BundleInstall +qall
+
+* Compile YouCompleteMe plugin (http://valloric.github.com/YouCompleteMe/)
