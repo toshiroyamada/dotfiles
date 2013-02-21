@@ -1,5 +1,3 @@
-" .vimrc
-" Toshiro Yamada (updated Aug. 23, 2012)
 
 " Basics {
     set nocompatible " explicitly get out of vi-compatible mode
@@ -152,6 +150,9 @@
 if has("gui_running")
     set cursorcolumn " highlight the current column
     set cursorline " highlight current line
+    if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+        set t_Co=256
+    endif
 endif
 " }
 
@@ -208,7 +209,7 @@ endif
     " Folding
     "set nofoldenable
     set foldenable " Turn on folding
-    set foldmethod=marker " Fold on the marker
+    set foldmethod=indent " Fold on the marker
     set foldlevel=100 " Don't autofold anything (but I can still fold manually)
     set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 
@@ -244,7 +245,7 @@ if has("gui_running")
     "  * midnight - dark bg, good for low light environment
     "  * molokai - dark bg, pink keyword
     "  * macvim - white bg, default macvim color
-    colorscheme wombat
+    colorscheme mustang
 
     " Set font according to system
     if has("mac")
@@ -297,12 +298,17 @@ endif
     "Bundle 'tpope/vim-rails'
     "Bundle 'tpope/vim-surround'
     "Bundle 'tristen/vim-sparkup' " similar to zencoding
+    Bundle 'Lokaltog/vim-powerline'
     Bundle 'Valloric/YouCompleteMe'
+    Bundle 'flazz/vim-colorschemes'
     Bundle 'ivanov/vim-ipython'
+    Bundle 'jnurmine/Zenburn'
     Bundle 'kevinw/pyflakes-vim'
+    Bundle 'kien/ctrlp.vim'
     Bundle 'mileszs/ack.vim'
     Bundle 'scrooloose/nerdtree'
     Bundle 'scrooloose/syntastic'
+    Bundle 'sjl/gundo.vim'
     Bundle 'tpope/vim-commentary'
     Bundle 'tpope/vim-fugitive'
     Bundle 'tpope/vim-repeat'
@@ -316,6 +322,7 @@ endif
     "Bundle 'vim-scripts/compilejsl.vim'
     Bundle 'FuzzyFinder'
     Bundle 'L9'
+    Bundle 'pep8'
     Bundle 'taglist-plus'
     Bundle 'vim-scripts/OmniCppComplete'
     Bundle 'vim-scripts/TagHighlight'
@@ -340,7 +347,7 @@ endif
     "vnoremap k gk
 
     " <leader> {
-        let mapleader=","
+        "let mapleader=","
         nmap <leader><space> :noh<cr> " clear highlighted text
 
         " Open and reload vimrc file
@@ -357,6 +364,7 @@ endif
 
         " Plugin shortcuts
         nmap <leader>a :A<cr>
+        map <leader>g :GundoToggle<CR>
     " }
 
     " Window {
@@ -383,8 +391,8 @@ endif
     inoremap <F1> <C-R>=strftime("%Y/%m/%d")<CR>
     noremap <F2> "=strftime("%Y/%m/%d %H:%M:%S")<CR>P
     inoremap <F2> <C-R>=strftime("%Y/%m/%d %H:%M:%S")<CR>
-    noremap <F5> "=strftime("%FT%T")<CR>P
-    inoremap <F5> <C-R>=strftime("%FT%T")<CR>
+    noremap <F3> "=strftime("%FT%T")<CR>P
+    inoremap <F3> <C-R>=strftime("%FT%T")<CR>
 
     " Replace :bd with :Kwbd
     cnoremap <expr> bd (getcmdtype() == ':' ? 'Kwbd' : 'bd')
