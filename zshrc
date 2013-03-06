@@ -210,12 +210,12 @@ ${path} ${=$(command -p getconf PATH)//:/ }
 unset PATH_tmp
 unsetopt NOMATCH
 for temp_path in ${common_paths}; do 
-  # (u0r^IWt,Ur^IWt) seems to check read/write permissions on the directory and
-  # the following command fails if the directory is group writable by the user.
-  # Homebrew makes /usr/local/bin group writable and the following command does
-  # allow it to be in the path.
-	#test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
-  test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
+    # (u0r^IWt,Ur^IWt) seems to check read/write permissions on the directory and
+    # the following command fails if the directory is group writable by the user.
+    # Homebrew makes /usr/local/bin group writable and the following command does
+    # allow it to be in the path.
+    #test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
+    test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
 done
 setopt NOMATCH
 export PATH=${PATH_tmp/%:/}
@@ -223,22 +223,26 @@ unset common_paths temp_path PATH_tmp
 
 ## Figure out what DYLD_LIBRARY_PATH should be...
 typeset -U common_paths
-export DYLD_LIBRARY_PATH=''
 common_paths=(
 	# what the system thinks LD_LIBRARY_PATH should be
     #${DYLD_LIBRARY_PATH} ${=$(command -p getconf DYLD_LIBRARY_PATH)//:/ } 	
     ${MAGICK_HOME}/lib                          # ImageMagick
     /usr/local/cuda/lib                         # cuda
+    /usr/local/lib
 )
 unset PATH_tmp
 unsetopt NOMATCH
 for temp_path in ${common_paths}; do 
-	test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
+    #test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
+    test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
 done
 setopt NOMATCH
-export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
+if [[ $platform == 'mac' ]] then
+    export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
+else
+    export LD_LIBRARY_PATH=${PATH_tmp/%:/}
+fi
 unset common_paths temp_path PATH_tmp
-#export DYLD_LIBRARY_PATH=$MAGICK_HOME/lib:/usr/local/cuda/lib:$DYLD_LIBRARY_PATH
 
 # # --------------------------------------------------------------------
 # # Terminal prompt
