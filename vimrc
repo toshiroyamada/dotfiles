@@ -303,6 +303,7 @@
   "Bundle 'tristen/vim-sparkup' " similar to zencoding
   Bundle 'Lokaltog/vim-powerline'
   Bundle 'Valloric/YouCompleteMe'
+  Bundle 'airblade/vim-gitgutter'
   Bundle 'flazz/vim-colorschemes'
   Bundle 'ivanov/vim-ipython'
   Bundle 'jnurmine/Zenburn'
@@ -489,6 +490,10 @@
     nmap <C-L> :DWMFull<cr>
     nmap <C-J> <C-W>w<cr>
     nmap <C-K> <C-W>W<cr>
+  " }
+
+  " YouCompleteMe {
+    let g:ycm_key_detailed_diagnostics=''
   " }
 
   " vim-processing {
