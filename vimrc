@@ -117,7 +117,9 @@
     set backupdir=~/.vimlocal/backup " where to put backup files
     set directory=~/.vimlocal/swap " where to put swap files
   endif
-  set clipboard+=unnamed " share windows clipboard
+  if $TMUX == ''
+    set clipboard+=unnamed " share windows clipboard
+  endif
   set hidden " change buffer without saving
   set visualbell " use visual beeps
   set wildmenu " turn on command line completion wild style
@@ -150,8 +152,8 @@
 
 " Vim UI {
   if has("gui_running")
-    set cursorcolumn " highlight the current column
-    set cursorline " highlight current line
+    "set cursorcolumn " highlight the current column
+    "set cursorline " highlight current line
     if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
       set t_Co=256
     endif
@@ -239,48 +241,6 @@
   "set gdefault
 " }
 
-" GUI {
-  if has("gui_running")
-    " colo[rscheme]
-    "  * wombat - dark bg, red variable name
-    "  * mustang - dark bg, bold white function
-    "  * midnight - dark bg, good for low light environment
-    "  * molokai - dark bg, pink keyword
-    "  * macvim - white bg, default macvim color
-    colorscheme mustang
-
-    " Set font according to system
-    if has("mac")
-      set linespace=1
-      set guifont=Consolas:h12
-      "set guifont=Menlo:h11
-      "set guifont=Monaco:h12
-    elseif has('win32') || has('win64')
-      set linespace=0
-      colorscheme macvim
-      set guifont=Consolas:h11
-    elseif has("unix")
-      set linespace=1
-      set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
-    elseif has("linux")
-      set linespace=1
-      set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
-      set guioptions+=ag
-    endif
-
-    " MacVim options
-    "set transparency=5
-
-    set guioptions-=T     " remove toolbar
-    set guioptions-=m     " remove menubar
-    set guioptions-=e     " remove GUI tab option
-    set guioptions-=rRlL  " remove scrollbars
-  else
-    colorscheme desert
-    set bg=dark " use with dark background color
-  endif
-" }
-
 " Vundle {
   set rtp+=~/.vim/bundle/vundle/
   call vundle#rc()
@@ -331,6 +291,49 @@
   Bundle 'vim-scripts/OmniCppComplete'
   Bundle 'vim-scripts/TagHighlight'
   Bundle 'vim-scripts/a.vim'
+" }
+
+" GUI {
+  if has("gui_running")
+    " colo[rscheme]
+    "  * wombat - dark bg, red variable name
+    "  * mustang - dark bg, bold white function
+    "  * midnight - dark bg, good for low light environment
+    "  * molokai - dark bg, pink keyword
+    "  * macvim - white bg, default macvim color
+    "  * warm_grey
+    "  * lightcolors
+    colorscheme lightcolors
+
+    " Set font according to system
+    if has("mac")
+      set linespace=1
+      set guifont=Consolas:h12
+      "set guifont=Menlo:h11
+      "set guifont=Monaco:h12
+    elseif has('win32') || has('win64')
+      set linespace=0
+      set guifont=Consolas:h11
+    elseif has("unix")
+      set linespace=1
+      set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
+    elseif has("linux")
+      set linespace=1
+      set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
+      set guioptions+=ag
+    endif
+
+    " MacVim options
+    "set transparency=5
+
+    set guioptions-=T     " remove toolbar
+    set guioptions-=m     " remove menubar
+    set guioptions-=e     " remove GUI tab option
+    set guioptions-=rRlL  " remove scrollbars
+  else
+    colorscheme desert
+    set bg=dark " use with dark background color
+  endif
 " }
 
 " Mappings {
