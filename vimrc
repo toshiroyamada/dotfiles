@@ -117,9 +117,7 @@
     set backupdir=~/.vimlocal/backup " where to put backup files
     set directory=~/.vimlocal/swap " where to put swap files
   endif
-  if $TMUX == ''
-    set clipboard+=unnamed " share windows clipboard
-  endif
+  set clipboard+=unnamed " share windows clipboard
   set hidden " change buffer without saving
   set visualbell " use visual beeps
   set wildmenu " turn on command line completion wild style
@@ -251,32 +249,33 @@
   Bundle 'toshiroyamada/Kwbd.vim'
   Bundle 'toshiroyamada/dwm.vim'
   "Bundle 'fholgado/minibufexpl.vim'
-  "Bundle 'jpalardy/vim-slime'
   "Bundle 'matthias-guenther/hammer.vim'  " markup lang to HTML
   "Bundle 'mattn/zencoding-vim'
   "Bundle 'msanders/cocoa.vim'
   "Bundle 'pangloss/vim-javascript'
-  "Bundle 'scrooloose/nerdcommenter'
   "Bundle 'sophacles/vim-processing'
   "Bundle 'tpope/vim-rails'
   "Bundle 'tpope/vim-surround'
+  "Bundle 'tpope/vim-speeddating'
   "Bundle 'tristen/vim-sparkup' " similar to zencoding
+  "Bundle 'Lokaltog/powerline'  " doesn't work
   Bundle 'Lokaltog/vim-powerline'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'airblade/vim-gitgutter'
   Bundle 'flazz/vim-colorschemes'
-  Bundle 'ivanov/vim-ipython'
-  Bundle 'jnurmine/Zenburn'
-  Bundle 'kevinw/pyflakes-vim'
+  "Bundle 'ivanov/vim-ipython'
+  "Bundle 'jnurmine/Zenburn'
+  Bundle 'jpalardy/vim-slime'
   Bundle 'kien/ctrlp.vim'
   Bundle 'mileszs/ack.vim'
+  "Bundle 'nvie/vim-flake8'
+  Bundle 'scrooloose/nerdcommenter'
   Bundle 'scrooloose/nerdtree'
   Bundle 'scrooloose/syntastic'
   Bundle 'sjl/gundo.vim'
   Bundle 'tpope/vim-commentary'
   Bundle 'tpope/vim-fugitive'
   Bundle 'tpope/vim-repeat'
-  Bundle 'tpope/vim-speeddating'
 
   " vim-scripts repos
   "Bundle 'MatlabFilesEdition'
@@ -286,8 +285,7 @@
   "Bundle 'vim-scripts/compilejsl.vim'
   Bundle 'FuzzyFinder'
   Bundle 'L9'
-  Bundle 'pep8'
-  Bundle 'taglist-plus'
+  Bundle 'taglist.vim'
   Bundle 'vim-scripts/OmniCppComplete'
   Bundle 'vim-scripts/TagHighlight'
   Bundle 'vim-scripts/a.vim'
@@ -333,6 +331,14 @@
   else
     colorscheme desert
     set bg=dark " use with dark background color
+
+    " Fix terminal timeout when pressing escape
+    set ttimeoutlen=10
+    augroup FastEscape
+      autocmd!
+      autocmd InsertEnter * set timeoutlen=0
+      autocmd InsertLeave * set timeoutlen=1000
+    augroup END
   endif
 " }
 
@@ -406,6 +412,9 @@
 " }
 
 " Autocommands {
+  " To avoid loading autocmd twice when resourced
+  "autocmd!
+
   " Save file when out of focus
   "autocmd FocusLost * :wa
 
@@ -421,7 +430,8 @@
   " Syntax
   autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
   autocmd BufRead,BufNewFile *.txt call s:SetupTextEdit()
-  autocmd! BufNewFile,BufRead *.ino setlocal ft=arduino
+  autocmd BufNewFile,BufRead *.ino setlocal ft=arduino
+  "autocmd BufWritePost *.py call Flake8()
 
   " Git-commit textwidth wrapper
   autocmd FileType gitcommit call s:SetupGitCommit()
@@ -433,14 +443,14 @@
 
   " GZip files
   augroup gzip
-    au BufReadPre     *.GZ setlocal bin
-    au BufRead        *.GZ call gzip#read("gzip -dn")
-    au BufWritePost   *.GZ call gzip#write("gzip")
-    au FileAppendPost *.GZ call gzip#write("gzip")
-    au FileAppendPre  *.GZ call gzip#appre("gzip -dn")
-    au FileReadPost   *.GZ call gzip#read("gzip -dn")
-    au FileReadPre    *.GZ setlocal bin
-    au FileWritePost  *.GZ call gzip#write("gzip")
+    autocmd BufReadPre     *.GZ setlocal bin
+    autocmd BufRead        *.GZ call gzip#read("gzip -dn")
+    autocmd BufWritePost   *.GZ call gzip#write("gzip")
+    autocmd FileAppendPost *.GZ call gzip#write("gzip")
+    autocmd FileAppendPre  *.GZ call gzip#appre("gzip -dn")
+    autocmd FileReadPost   *.GZ call gzip#read("gzip -dn")
+    autocmd FileReadPre    *.GZ setlocal bin
+    autocmd FileWritePost  *.GZ call gzip#write("gzip")
   augroup END
 " }
 
