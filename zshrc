@@ -175,13 +175,13 @@ export ECLIPSE_HOME=/Applications/eclipse
 
 # Mac specific 
 if [[ $platform == 'mac' ]]; then
-    export EDITOR='vim'
     # MacVim
     if [ -d '/Applications/MacVim' ]; then
         export VIM_APP_DIR=/Applications/MacVim
     else
         export VIM_APP_DIR=/Applications
     fi
+    export EDITOR='${VIM_APP_DIR}/MacVim.app/Contents/MacOS/Vim'
     # Wireshark
     if [ -d '/Applications/Wireshark' ]; then
         export WIRESHARK_APP_DIR=/Applications/Wireshark
@@ -238,7 +238,7 @@ for temp_path in ${common_paths}; do
 done
 setopt NOMATCH
 if [[ $platform == 'mac' ]] then
-    export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
+    #export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
 else
     export LD_LIBRARY_PATH=${PATH_tmp/%:/}
 fi
@@ -413,6 +413,11 @@ promptinit
 # Improve completion style
 zstyle ':completion:*:descriptions' format '%U%B%d%b%u'
 zstyle ':completion:*:warnings' format '%BSorry, no matches for: %d%b'
+# Disable hostname completion
+# zstyle ':completion:*' hosts off
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
 
 #unsetopt auto_name_dirs
 #[[ -s "$HOME/.rvm/scripts/rvm" ]] && \. "$HOME/.rvm/scripts/rvm" # Load RVM function
