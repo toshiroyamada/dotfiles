@@ -160,7 +160,7 @@
 
 " Text Formatting/Layout {
   " Set tab to space of 4
-  set tabstop=4
+  set tabstop=8
   set shiftwidth=4
   set softtabstop=4
   set expandtab
@@ -262,6 +262,7 @@
   Bundle 'Lokaltog/vim-powerline'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'airblade/vim-gitgutter'
+  Bundle 'derekwyatt/vim-scala'
   Bundle 'flazz/vim-colorschemes'
   "Bundle 'ivanov/vim-ipython'
   "Bundle 'jnurmine/Zenburn'
@@ -283,12 +284,13 @@
   "Bundle 'SuperTab-continued.'
   "Bundle 'tComment'
   "Bundle 'vim-scripts/compilejsl.vim'
+  "Bundle 'vim-scripts/OmniCppComplete'
   Bundle 'FuzzyFinder'
   Bundle 'L9'
   Bundle 'taglist.vim'
-  Bundle 'vim-scripts/OmniCppComplete'
-  Bundle 'vim-scripts/TagHighlight'
   Bundle 'vim-scripts/a.vim'
+  Bundle 'vim-scripts/TagHighlight'
+  Bundle 'vim-scripts/EasyColour'
 " }
 
 " GUI {
@@ -301,7 +303,7 @@
     "  * macvim - white bg, default macvim color
     "  * warm_grey
     "  * lightcolors
-    colorscheme lightcolors
+    colorscheme mustang
 
     " Set font according to system
     if has("mac")
@@ -516,6 +518,6 @@
   " }
 
   " Pydiction {
-    let g:pydiction_location='~/.vim/bundle/pydiction-1.2/complete-dict'
+  "let g:pydiction_location='~/.vim/bundle/pydiction-1.2/complete-dict'
   " }
 " }
