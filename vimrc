@@ -260,6 +260,7 @@
   "Bundle 'tristen/vim-sparkup' " similar to zencoding
   "Bundle 'Lokaltog/powerline'  " doesn't work
   Bundle 'Lokaltog/vim-powerline'
+  Bundle 'Lokaltog/vim-distinguished'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'airblade/vim-gitgutter'
   Bundle 'derekwyatt/vim-scala'
@@ -301,9 +302,10 @@
     "  * midnight - dark bg, good for low light environment
     "  * molokai - dark bg, pink keyword
     "  * macvim - white bg, default macvim color
+    "  * distinguished - dark bg, 256-color
     "  * warm_grey
     "  * lightcolors
-    colorscheme mustang
+    colorscheme distinguished
 
     " Set font according to system
     if has("mac")
@@ -331,8 +333,7 @@
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
   else
-    colorscheme desert
-    set bg=dark " use with dark background color
+    colorscheme distinguished
 
     " Fix terminal timeout when pressing escape
     set ttimeoutlen=10
@@ -442,6 +443,7 @@
   autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
   autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
   autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
+  autocmd BufRead *.plist setlocal shiftwidth=8 tabstop=8 softtabstop=8 noexpandtab
 
   " GZip files
   augroup gzip
