@@ -149,12 +149,10 @@
 " }
 
 " Vim UI {
-  if has("gui_running")
-    "set cursorcolumn " highlight the current column
-    "set cursorline " highlight current line
-    if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
-      set t_Co=256
-    endif
+  "set cursorcolumn " highlight the current column
+  "set cursorline " highlight current line
+  if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gnome-terminal"
+    set t_Co=256
   endif
 " }
 
