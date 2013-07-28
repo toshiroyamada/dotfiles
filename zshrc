@@ -237,12 +237,17 @@ for temp_path in ${common_paths}; do
     test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
 done
 setopt NOMATCH
-if [[ $platform == 'mac' ]] then
+if [[ $platform == 'mac' ]]; then
     #export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
 else
     export LD_LIBRARY_PATH=${PATH_tmp/%:/}
 fi
 unset common_paths temp_path PATH_tmp
+
+
+if [ -e ~/.pythonrc ]; then
+    export PYTHONSTARTUP=~/.pythonrc
+fi
 
 # # --------------------------------------------------------------------
 # # Terminal prompt
