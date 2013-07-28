@@ -256,13 +256,14 @@
   "Bundle 'tpope/vim-speeddating'
   "Bundle 'tpope/vim-surround'
   "Bundle 'tristen/vim-sparkup' " similar to zencoding
-  Bundle 'jnwhiteh/vim-golang'
+  Bundle 'Blackrush/vim-gocode'
   Bundle 'Lokaltog/vim-distinguished'
   Bundle 'Lokaltog/vim-powerline'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'airblade/vim-gitgutter'
   Bundle 'derekwyatt/vim-scala'
   Bundle 'flazz/vim-colorschemes'
+  Bundle 'jnwhiteh/vim-golang'
   Bundle 'jpalardy/vim-slime'
   Bundle 'kien/ctrlp.vim'
   Bundle 'mileszs/ack.vim'
@@ -446,6 +447,7 @@
   autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
   autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
   autocmd BufRead *.plist setlocal shiftwidth=8 tabstop=8 softtabstop=8 noexpandtab
+  autocmd FileType go setlocal shiftwidth=4 tabstop=4 softtabstop=4 noexpandtab
 
   " GZip files
   augroup gzip
