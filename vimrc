@@ -4,7 +4,6 @@
 " Basics {
   set nocompatible " explicitly get out of vi-compatible mode
   set noexrc " don't use local version of .(g)vimrc, .exrc
-  syntax on " turn on syntax highlighting
 " }
 
 " Functions {
@@ -104,9 +103,6 @@
 " }
 
 " General {
-  filetype off
-  filetype indent plugin on " load filetype plugins/indent settings
-
   set nospell " no spell check
   set history=150 " keep 150 lines of command line history
   set backup " make backup files
@@ -238,42 +234,46 @@
 " }
 
 " Vundle {
+  filetype off
+
   set rtp+=~/.vim/bundle/vundle/
   call vundle#rc()
 
   Bundle 'gmarik/vundle'
 
   " Github repos
-  Bundle 'toshiroyamada/Kwbd.vim'
-  Bundle 'toshiroyamada/dwm.vim'
+  "Bundle 'Lokaltog/powerline'  " doesn't work
   "Bundle 'fholgado/minibufexpl.vim'
+  "Bundle 'ivanov/vim-ipython'
+  "Bundle 'jnurmine/Zenburn'
   "Bundle 'matthias-guenther/hammer.vim'  " markup lang to HTML
   "Bundle 'mattn/zencoding-vim'
   "Bundle 'msanders/cocoa.vim'
+  "Bundle 'nvie/vim-flake8'
   "Bundle 'pangloss/vim-javascript'
   "Bundle 'sophacles/vim-processing'
   "Bundle 'tpope/vim-rails'
-  "Bundle 'tpope/vim-surround'
   "Bundle 'tpope/vim-speeddating'
+  "Bundle 'tpope/vim-surround'
   "Bundle 'tristen/vim-sparkup' " similar to zencoding
-  "Bundle 'Lokaltog/powerline'  " doesn't work
-  Bundle 'Lokaltog/vim-powerline'
+  Bundle 'jnwhiteh/vim-golang'
   Bundle 'Lokaltog/vim-distinguished'
+  Bundle 'Lokaltog/vim-powerline'
   Bundle 'Valloric/YouCompleteMe'
   Bundle 'airblade/vim-gitgutter'
   Bundle 'derekwyatt/vim-scala'
   Bundle 'flazz/vim-colorschemes'
-  "Bundle 'ivanov/vim-ipython'
-  "Bundle 'jnurmine/Zenburn'
   Bundle 'jpalardy/vim-slime'
   Bundle 'kien/ctrlp.vim'
   Bundle 'mileszs/ack.vim'
-  "Bundle 'nvie/vim-flake8'
   Bundle 'scrooloose/nerdcommenter'
   Bundle 'scrooloose/nerdtree'
   Bundle 'scrooloose/syntastic'
   Bundle 'sjl/gundo.vim'
+  Bundle 'toshiroyamada/Kwbd.vim'
+  Bundle 'toshiroyamada/dwm.vim'
   Bundle 'tpope/vim-commentary'
+  Bundle 'tpope/vim-dispatch'
   Bundle 'tpope/vim-fugitive'
   Bundle 'tpope/vim-repeat'
 
@@ -282,15 +282,19 @@
   "Bundle 'Pydiction'
   "Bundle 'SuperTab-continued.'
   "Bundle 'tComment'
-  "Bundle 'vim-scripts/compilejsl.vim'
   "Bundle 'vim-scripts/OmniCppComplete'
+  "Bundle 'vim-scripts/compilejsl.vim'
   Bundle 'FuzzyFinder'
   Bundle 'L9'
   Bundle 'taglist.vim'
-  Bundle 'vim-scripts/a.vim'
-  Bundle 'vim-scripts/TagHighlight'
   Bundle 'vim-scripts/EasyColour'
+  Bundle 'vim-scripts/TagHighlight'
+  Bundle 'vim-scripts/a.vim'
+
+  syntax on
+  filetype plugin indent on
 " }
+
 
 " GUI {
   if has("gui_running")
