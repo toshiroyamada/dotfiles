@@ -25,7 +25,7 @@ fi
 
 ## Changing directories
 setopt autocd               # cd without typing cd
-setopt autopushd            # automatically pushd the old directory 
+setopt autopushd            # automatically pushd the old directory
 unsetopt cdable_vars        # expand cd argument as if it was preceded by '~'
 unsetopt chase_dots         # resolve sym links when using '..' in path
 unsetopt chase_links        # resolve sym links. include effect of chase_dots
@@ -47,7 +47,7 @@ unsetopt auto_menu          # automatically use menu completition after 2nd tab
 #setopt bash_auto_list       # list choicoes when hit tab twice in succession.
                             # takes precedence over auto_list
 #setopt complete_aliases     # prevent aliases from substituted before completion
-#setopt complete_in_word     # if unset, put cursor to the end of the word if 
+#setopt complete_in_word     # if unset, put cursor to the end of the word if
                             # completion is started
 setopt glob_complete        # match with glob pattern
 #unsetopt hash_list_all      # hash cmd path whenever cmd completion is attempt
@@ -110,7 +110,7 @@ setopt hist_allow_clobber   # add '|' to output redirections to clobber
 
 ## Input/Output
 #unsetopt aliass            # expand aliases
-unsetopt clobber            # allow '>' to truncate existing files and 
+unsetopt clobber            # allow '>' to truncate existing files and
                             # '>>' to create files.
 #setopt correct              # try to correct the spelling of commands
 #setopt correct_all          # try to correct spelling of all arguments
@@ -136,7 +136,7 @@ unsetopt flow_control       # if unset, output flow control via start/stop
 #setopt auto_continue
 #setopt auto_resume
 unsetopt bg_nice            # run all background jobs at a lower priority
-#unsetopt check_jobs         # report status of background and suspended jobs 
+#unsetopt check_jobs         # report status of background and suspended jobs
                             # before exiting shell with job control
 #unsetopt hup                # send the HUP signal when the shell exits
 #setopt long_list_jobs       # list jobs in the long format
@@ -173,7 +173,7 @@ export ECLIPSE_HOME=/Applications/eclipse
 #export CPPFLAGS="-I${MACPORT_HOME}/include"
 #export LDFLAGS="-L${MACPORT_HOME}/lib"
 
-# Mac specific 
+# Mac specific
 if [[ $platform == 'mac' ]]; then
     # MacVim
     if [ -d '/Applications/MacVim' ]; then
@@ -193,23 +193,37 @@ fi
 ## Figure out what PATH should be
 ## Paths are not added if they do not exist
 typeset -U common_paths
+
+# Remove /bin /usr/bin and /usr/bin/local from default path
+# so we can override the order
+default_path=(${path} ${=$(command -p getconf PATH)//:/ })
+default_path=${default_path:gs/\/usr\/local\/bin//}
+default_path=${default_path:gs/\/usr\/local\/sbin//}
+default_path=${default_path:gs/\/usr\/bin//}
+default_path=${default_path:gs/\/usr\/sbin//}
+default_path=${default_path:gs/ \/bin//}
+default_path=${default_path:gs/ \/sbin//}
+# Split string by space
+default_path=(${(s: :)default_path})
+
 common_paths=(
-${path} ${=$(command -p getconf PATH)//:/ } 	
     # what the system thinks PATH should be
-    ${MACPORT_HOME}/bin ${MACPORT_HOME}/sbin	  # MacPort
+    ${default_path}
+    /usr/local/bin /usr/local/sbin
+    /usr/bin /usr/sbin
+    /bin /sbin
+    ${HOME}/bin                                 # personal stuff
+    ${HOME}/Code/scripts
+    ${MACPORT_HOME}/bin ${MACPORT_HOME}/sbin	# MacPort
     ${MAGICK_HOME}/bin                          # ImageMagick
     /opt/wireshark/bin                          # wireshark
     /usr/local/cuda/bin                         # cuda
     /usr/local/mongodb/bin                      # MondoDB
-    ${HOME}/bin                                 # personal stuff
-    ${HOME}/Code/scripts
-    /usr/local/bin /usr/local/sbin
-    /bin /sbin 
-    /usr/bin /usr/sbin
 )
 unset PATH_tmp
 unsetopt NOMATCH
-for temp_path in ${common_paths}; do 
+
+for temp_path in ${common_paths}; do
     # (u0r^IWt,Ur^IWt) seems to check read/write permissions on the directory and
     # the following command fails if the directory is group writable by the user.
     # Homebrew makes /usr/local/bin group writable and the following command does
@@ -225,14 +239,14 @@ unset common_paths temp_path PATH_tmp
 typeset -U common_paths
 common_paths=(
 	# what the system thinks LD_LIBRARY_PATH should be
-    #${DYLD_LIBRARY_PATH} ${=$(command -p getconf DYLD_LIBRARY_PATH)//:/ } 	
+    #${DYLD_LIBRARY_PATH} ${=$(command -p getconf DYLD_LIBRARY_PATH)//:/ }
     ${MAGICK_HOME}/lib                          # ImageMagick
     /usr/local/cuda/lib                         # cuda
     /usr/local/lib
 )
 unset PATH_tmp
 unsetopt NOMATCH
-for temp_path in ${common_paths}; do 
+for temp_path in ${common_paths}; do
     #test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
     test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
 done
@@ -319,7 +333,7 @@ alias mv='nocorrect mv'
 # ditto is preferred to keep resource forks
 if [[ $platform == 'mac' ]] then
     #alias ditto='nocorrect ditto'
-    #alias cp='ditto' 
+    #alias cp='ditto'
     alias cp='nocorrect cp'
 else
     alias cp='nocorrect cp'
@@ -334,7 +348,7 @@ if [[ $platform == 'mac' ]] then
     fi
 elif [[ $platform == 'linux' ]] then
     alias ls='ls -F --color=auto'
-else 
+else
     alias ls='ls -F'
 fi
 alias ll='ls -l'
@@ -377,12 +391,14 @@ alias egrep='egrep --color=auto'
 bindkey '^a' beginning-of-line
 bindkey '^e' end-of-line
 bindkey '^u' backward-kill-line # delete everything before cursor
+#zle -N bash-backward-kill-word
+#bindkey '^w' bash-backward-kill-word
 bindkey '^k' kill-line # delete everything after cursor
-bindkey '^b' kill-word # delete the current word
 bindkey '^[f' forward-word # move forward-word
 bindkey '^[b' backward-word # move backward-word
 
 bindkey '^r' history-incremental-search-backward
+bindkey '^f' history-incremental-search-forward
 bindkey "^[[5~" up-line-or-history
 bindkey "^[[6~" down-line-or-history
 # bindkey "^[[H" beginning-of-line
@@ -432,8 +448,8 @@ zstyle ':completion:*' cache-path ~/.zsh/cache
 # # Improve tab completion for git
 # # --------------------------------------------------------------------
 # http://stackoverflow.com/questions/9810327/git-tab-autocompletion-is-useless-can-i-turn-it-off-or-optimize-it
-__git_files () { 
-    _wanted files expl 'local files' _files     
+__git_files () {
+    _wanted files expl 'local files' _files
 }
 
 # # --------------------------------------------------------------------
