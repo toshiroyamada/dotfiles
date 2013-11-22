@@ -33,7 +33,6 @@ setopt pushd_ignore_dups    # don't push multiple copies of same directories
 setopt pushdminus           # exchanges meanings of '+' & '-' when used with
                             # number to specify a directory in the stack
 setopt pushdsilent          # Don't print directory stack after pushd or popd
-setopt pushd_to_home        # pushd with no argument = 'pushd $HOME'
 
 ## Completion
 #unsetopt always_last_prompt # return to last prompt if given no numeric argument
