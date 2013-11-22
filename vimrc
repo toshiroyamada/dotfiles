@@ -515,6 +515,10 @@
 
   " YouCompleteMe {
     let g:ycm_key_detailed_diagnostics=''
+    if has("mac")
+      " You the system python since I compile YouCompleteMe with this version
+      let g:ycm_path_to_python_interpreter='/usr/bin/python'
+    endif
   " }
 
   " vim-processing {
