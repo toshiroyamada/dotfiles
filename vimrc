@@ -443,11 +443,11 @@
   autocmd FileType gitcommit call s:SetupGitCommit()
 
   " Tabs
-  autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
-  autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
-  autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
   autocmd BufRead *.plist setlocal shiftwidth=8 tabstop=8 softtabstop=8 noexpandtab
   autocmd FileType go setlocal shiftwidth=4 tabstop=4 softtabstop=4 noexpandtab
+  autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
+  autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
+  autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
 
   " GZip files
   augroup gzip
@@ -529,5 +529,9 @@
 
   " Pydiction {
   "let g:pydiction_location='~/.vim/bundle/pydiction-1.2/complete-dict'
+  " }
+
+  " Syntastic {
+    let g:syntastic_python_checkers = ['flake8']
   " }
 " }
