@@ -189,6 +189,11 @@ else
     export EDITOR='vim'
 fi
 
+## TMUX 256-color
+if (($+TMUX)); then
+    export TERM=screen-256color
+fi
+
 ## Figure out what PATH should be
 ## Paths are not added if they do not exist
 typeset -U common_paths
@@ -213,11 +218,7 @@ common_paths=(
     /bin /sbin
     ${HOME}/bin                                 # personal stuff
     ${HOME}/Code/scripts
-    ${MACPORT_HOME}/bin ${MACPORT_HOME}/sbin	# MacPort
-    ${MAGICK_HOME}/bin                          # ImageMagick
-    /opt/wireshark/bin                          # wireshark
-    /usr/local/cuda/bin                         # cuda
-    /usr/local/mongodb/bin                      # MondoDB
+    ${HOME}/Dev/scripts
 )
 unset PATH_tmp
 unsetopt NOMATCH
@@ -233,34 +234,6 @@ done
 setopt NOMATCH
 export PATH=${PATH_tmp/%:/}
 unset common_paths temp_path PATH_tmp
-
-## Figure out what DYLD_LIBRARY_PATH should be...
-typeset -U common_paths
-common_paths=(
-	# what the system thinks LD_LIBRARY_PATH should be
-    #${DYLD_LIBRARY_PATH} ${=$(command -p getconf DYLD_LIBRARY_PATH)//:/ }
-    ${MAGICK_HOME}/lib                          # ImageMagick
-    /usr/local/cuda/lib                         # cuda
-    /usr/local/lib
-)
-unset PATH_tmp
-unsetopt NOMATCH
-for temp_path in ${common_paths}; do
-    #test -d "${temp_path}"(u0r^IWt,Ur^IWt) && PATH_tmp="${PATH_tmp}${temp_path}:"
-    test -d "${temp_path}" && PATH_tmp="${PATH_tmp}${temp_path}:"
-done
-setopt NOMATCH
-if [[ $platform == 'mac' ]]; then
-    #export DYLD_LIBRARY_PATH=${PATH_tmp/%:/}
-else
-    export LD_LIBRARY_PATH=${PATH_tmp/%:/}
-fi
-unset common_paths temp_path PATH_tmp
-
-
-if [ -e ~/.pythonrc ]; then
-    export PYTHONSTARTUP=~/.pythonrc
-fi
 
 # # --------------------------------------------------------------------
 # # Terminal prompt
@@ -375,7 +348,10 @@ alias egrep='egrep --color=auto'
 # # Key bindings
 # # --------------------------------------------------------------------
 # http://www.cs.elte.hu/zsh-manual/zsh_14.html
-#
+
+# vi mode
+bindkey -v
+
 # Bash style keyboard shortcuts
 # ctrl-a	go to beginning of the line
 # ctrl-e 	go to end of line
@@ -387,14 +363,14 @@ alias egrep='egrep --color=auto'
 # ctrl-k	clear line after the cursor
 # alt-f		move cursor forward one word
 # alt-b		move cursor backward one word
-bindkey '^a' beginning-of-line
-bindkey '^e' end-of-line
-bindkey '^u' backward-kill-line # delete everything before cursor
+#bindkey '^a' beginning-of-line
+#bindkey '^e' end-of-line
+#bindkey '^u' backward-kill-line # delete everything before cursor
 #zle -N bash-backward-kill-word
 #bindkey '^w' bash-backward-kill-word
-bindkey '^k' kill-line # delete everything after cursor
-bindkey '^[f' forward-word # move forward-word
-bindkey '^[b' backward-word # move backward-word
+#bindkey '^k' kill-line # delete everything after cursor
+#bindkey '^[f' forward-word # move forward-word
+#bindkey '^[b' backward-word # move backward-word
 
 bindkey '^r' history-incremental-search-backward
 bindkey '^f' history-incremental-search-forward
@@ -407,8 +383,8 @@ bindkey "^[[6~" down-line-or-history
 bindkey ' ' magic-space    # also do history expansion on space
 #bindkey '^I' complete-word # complete on tab, leave expansion to _expand
 
-stty erase ^H &>/dev/null
-bindkey "^[[3~" delete-char
+#stty erase ^H &>/dev/null
+#bindkey "^[[3~" delete-char
 
 #chpwd() {
 #     [[ -t 1 ]] || return
