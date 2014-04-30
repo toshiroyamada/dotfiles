@@ -1,5 +1,5 @@
 " Toshiro's vimrc file
-" 2013-02-21
+" 2014/04/28
 
 " Basics {
   set nocompatible " explicitly get out of vi-compatible mode
@@ -514,11 +514,18 @@
   " }
 
   " YouCompleteMe {
+    nnoremap <leader>jd :YcmCompleter GoToDeclaration<CR>
+    nnoremap <leader>jD :YcmCompleter GoToDefinition<CR>
+    nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
     let g:ycm_key_detailed_diagnostics=''
     if has("mac")
       " You the system python since I compile YouCompleteMe with this version
       let g:ycm_path_to_python_interpreter='/usr/bin/python'
     endif
+    " Close the annoying preview window when done
+    let g:ycm_autoclose_preview_window_after_completion=0
+    let g:ycm_autoclose_preview_window_after_insertion=1
+    let g:ycm_confirm_extra_conf=1
   " }
 
   " vim-processing {
