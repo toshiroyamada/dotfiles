@@ -212,13 +212,13 @@ default_path=(${(s: :)default_path})
 
 common_paths=(
     # what the system thinks PATH should be
+    ${HOME}/bin                                 # personal stuff
+    ${HOME}/Code/scripts
+    ${HOME}/Dev/scripts
     ${default_path}
     /usr/local/bin /usr/local/sbin
     /usr/bin /usr/sbin
     /bin /sbin
-    ${HOME}/bin                                 # personal stuff
-    ${HOME}/Code/scripts
-    ${HOME}/Dev/scripts
 )
 unset PATH_tmp
 unsetopt NOMATCH
