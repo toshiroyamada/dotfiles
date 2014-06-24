@@ -374,8 +374,10 @@ bindkey -v
 
 bindkey '^r' history-incremental-search-backward
 bindkey '^f' history-incremental-search-forward
-bindkey "^[[5~" up-line-or-history
-bindkey "^[[6~" down-line-or-history
+bindkey "^[[A" up-line-or-history
+bindkey "^[[B" down-line-or-history
+#bindkey "^[[5~" up-line-or-history
+#bindkey "^[[6~" down-line-or-history
 # bindkey "^[[H" beginning-of-line
 # bindkey "^[[1~" beginning-of-line
 # bindkey "^[[F"  end-of-line
@@ -430,6 +432,10 @@ __git_files () {
 # # --------------------------------------------------------------------
 # # Sourcing extra setups
 # # --------------------------------------------------------------------
-if [[ -e ~/.zsh_extras ]]; then
-    source ~/.zsh_extras
+if [[ -e ~/.zsh/work ]]; then
+    source ~/.zsh/work
+fi
+
+if [[ -e ~/.zsh/display_preexec ]]; then
+    source ~/.zsh/display_preexec
 fi
