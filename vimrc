@@ -525,7 +525,7 @@
     " Close the annoying preview window when done
     let g:ycm_autoclose_preview_window_after_completion=0
     let g:ycm_autoclose_preview_window_after_insertion=1
-    let g:ycm_confirm_extra_conf=1
+    let g:ycm_confirm_extra_conf=0
   " }
 
   " vim-processing {
@@ -539,6 +539,6 @@
   " }
 
   " Syntastic {
-    let g:syntastic_python_checkers = ['flake8']
+    "let g:syntastic_python_checkers = ['flake8']
   " }
 " }
