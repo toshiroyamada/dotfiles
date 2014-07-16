@@ -125,7 +125,7 @@
   "set lazyredraw " don't redraw when running macros
 
   if version >= 703
-    set autochdir " always switch to the current file directory
+    "set autochdir " always switch to the current file directory
     set undofile " persistent undo with an undofile
     if has("win32")
       set undodir=$HOME\vimlocal\undo
@@ -209,7 +209,8 @@
   set foldlevel=100 " Don't autofold anything (but I can still fold manually)
   set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 
-  set listchars=trail:·,precedes:«,extends:»,tab:▸\ ,eol:↲
+  set list
+  set listchars=eol:↲,tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
 " }
 
 
@@ -335,6 +336,11 @@
     set guioptions-=m     " remove menubar
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
+
+    " Set listchars "eol" and "extends" to use BOLD font
+    highlight NonText gui=bold
+    " Set listchars "nbsp", "tab", and "trail" to use BOLD font
+    highlight SpecialKey gui=bold
   else
     colorscheme distinguished
 
@@ -345,6 +351,11 @@
       autocmd InsertEnter * set timeoutlen=0
       autocmd InsertLeave * set timeoutlen=1000
     augroup END
+
+    " Set listchars "eol" and "extends" to use BOLD font
+    highlight NonText cterm=bold
+    " Set listchars "nbsp", "tab", and "trail" to use BOLD font
+    highlight SpecialKey cterm=bold
   endif
 " }
 
