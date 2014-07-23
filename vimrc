@@ -113,7 +113,8 @@
     set backupdir=~/.vimlocal/backup " where to put backup files
     set directory=~/.vimlocal/swap " where to put swap files
   endif
-  set clipboard+=unnamedplus " share windows clipboard
+  set clipboard=unnamedplus " Alias unnamed register to the + register
+  set clipboard+=unnamed " Alias unnamed register to the * register
   set hidden " change buffer without saving
   set visualbell " use visual beeps
   set wildmenu " turn on command line completion wild style
