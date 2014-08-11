@@ -153,8 +153,8 @@ zmodload -ap zsh/mapfile mapfile
 # # --------------------------------------------------------------------
 TZ="America/San_Diego"
 HISTFILE=$HOME/.zhistory
-HISTSIZE=10000
-SAVEHIST=100000
+HISTSIZE=1000000
+SAVEHIST=1000000
 HOSTNAME="`hostname`"
 PAGER='less'
 #LANGUAGE=
