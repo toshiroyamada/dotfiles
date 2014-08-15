@@ -216,6 +216,7 @@ common_paths=(
     ${HOME}/homebrew/bin
     ${HOME}/Code/scripts
     ${HOME}/Dev/scripts
+    ${HOME}/opt/bin
     ${default_path}
     /usr/local/bin /usr/local/sbin
     /usr/bin /usr/sbin
