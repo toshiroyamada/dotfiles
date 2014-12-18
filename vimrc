@@ -200,10 +200,10 @@
   set textwidth=79
   set formatoptions=qrn1
   if version >= 703
-    "set colorcolumn=81
+    set colorcolumn=79
   endif
   " highlight the text that's over 80 characters
-  "highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+  highlight OverLength ctermbg=red ctermfg=white guibg=#592929
   "match OverLength /\%81v.\+/
 
   " Folding
@@ -395,6 +395,12 @@
 
     " Remove trailing spaces
     nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
+
+    " Change local directory to current file
+    nmap <leader>c :lcd %:p:h<cr>
+
+    " Change all vim directories to current file
+    nmap <leader>C :lcd %:p:h<cr>
 
     " Plugin shortcuts
     nmap <leader>a :A<cr>
