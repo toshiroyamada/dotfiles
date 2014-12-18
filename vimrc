@@ -103,15 +103,18 @@
 " }
 
 " General {
+  set spelllang=en
   set nospell " no spell check
   set history=150 " keep 150 lines of command line history
   set backup " make backup files
   if has("win32")
     set backupdir=$HOME\vimlocal\backup " where to put backup files
     set directory=$HOME\vimlocal\swap " where to put swap files
+    set spellfile=$HOME\vimlocal\en.utf-8.add
   else
     set backupdir=~/.vimlocal/backup " where to put backup files
     set directory=~/.vimlocal/swap " where to put swap files
+    set spellfile=~/.vimlocal/en.utf-8.add
   endif
   set clipboard=unnamedplus " Alias unnamed register to the + register
   set clipboard+=unnamed " Alias unnamed register to the * register
