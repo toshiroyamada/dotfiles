@@ -350,6 +350,9 @@ if [[ $platform == 'linux' ]]; then
     alias parallel='parallel --gnu'
 fi
 
+# Git-specific shorthand aliases
+alias git-log-graph='git log --graph --pretty="%h - %an = %s"'
+
 # # --------------------------------------------------------------------
 # # Key bindings
 # # --------------------------------------------------------------------
