@@ -1,0 +1,72 @@
+#!/usr/bin/env python
+import fileinput
+import re
+import subprocess
+import sys
+import shlex
+
+DEVPATH = "/dev/bus/usb/{0:03d}/{1:03d}"
+PATTERN = re.compile(r'^Bus (\d+) Device (\d+)')
+
+
+def lsusb(args=None):
+    """Return output of lsusb"""
+    cmd = ['lsusb']
+
+    if args is not None:
+        cmd += args
+
+    try:
+        return subprocess.check_output(cmd).rstrip()
+    except subprocess.CalledProcessError:
+        return ''
+
+
+def udevprop(bus, device):
+    """Return output of udevadmn give bus and device IDs"""
+    cmd = [
+        'udevadm',
+        'info',
+        '-q', 'all',
+        '-n', DEVPATH.format(bus, device),
+    ]
+
+    try:
+        return subprocess.check_output(cmd).rstrip()
+    except subprocess.CalledProcessError:
+        return ''
+
+
+def _print(line):
+    """Actual function that matches line and print to stdout"""
+    match = PATTERN.search(line)
+    if match is not None:
+        bus, device = [int(x) for x in match.groups()]
+        print line.rstrip()
+        print udevprop(bus, device)
+        print
+
+
+def main_pipe():
+    """Main function when piped"""
+    for line in fileinput.input():
+        _print(line)
+
+
+def main(args=None):
+    """Main function when executed directly"""
+    if '-h' in args or '--help' in args:
+        print lsusb(['-h'])
+    else:
+        for line in lsusb(args).split('\n'):
+            _print(line)
+
+
+if __name__ == '__main__':
+    try:
+        if fileinput.isstdin():
+            main_pipe()
+    except RuntimeError:
+        main(sys.argv[1:])
+    else:
+        print "Unknown usage"

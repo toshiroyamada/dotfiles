@@ -1,0 +1,5 @@
+#!/bin/bash
+for arg in "$@"; do
+    echo ----------------- $arg -----------------
+    udevadm info -q all -n $arg
+done

@@ -1,0 +1,7 @@
+#!/bin/bash
+platform=$(uname)
+if [ ${platform} = 'Linux' ]; then
+    xclip -selection clipboard
+elif [ ${platform} = 'Darwin' ]; then
+    /usr/bin/pbcopy
+fi
