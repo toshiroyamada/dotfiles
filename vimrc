@@ -457,6 +457,7 @@
   " Syntax
   autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
   autocmd BufRead,BufNewFile *.txt call s:SetupTextEdit()
+  autocmd BufRead,BufNewFile *.{scala,sbt} setlocal syntax=scala
   autocmd BufNewFile,BufRead *.ino setlocal ft=arduino
   "autocmd BufWritePost *.py call Flake8()
 
@@ -469,6 +470,7 @@
   autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
   autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
   autocmd FileType python setlocal shiftwidth=4 tabstop=4 softtabstop=4
+  autocmd FileType scala setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
   " GZip files
   augroup gzip
