@@ -25,7 +25,10 @@ def print_children(device, depth=1):
 
 def print_tree(path):
     context = pyudev.Context()
-    device = pyudev.Device.from_path(context, path)
+    try:
+        device = pyudev.Device.from_path(context, path)
+    except pyudev.device.DeviceNotFoundAtPathError:
+        device = pyudev.Device.from_device_file(context, path)
 
     print_device(device)
     print_children(device)
