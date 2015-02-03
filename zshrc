@@ -165,7 +165,14 @@ LC_CTYPE=C
 
 # Magick
 export MAGICK_HOME=/usr/local/ImageMagick
+
 export ECLIPSE_HOME=/Applications/eclipse
+
+# virtualenvwrapper
+export WORKON_HOME=~/.virtualenv
+if [ -e /usr/local/bin/virtualenvwrapper.sh ]; then
+    source /usr/local/bin/virtualenvwrapper.sh
+fi
 
 # MacPort
 #export MACPORT_HOME=/opt/local

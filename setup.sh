@@ -4,6 +4,11 @@ cd ${DIR}
 
 relpath=$(python -c "import os.path; print os.path.relpath('${DIR}', '${HOME}')")
 
+
+# Setup git config
+git config user.name "Toshiro Yamada"
+git config user.email "toshiroyamada@users.noreply.github.com"
+
 echo "Link files"
 for conf in vim vimrc zsh zshrc tmux.conf; do
     echo ln -s "${relpath}/$conf" "${HOME}/.$conf"
