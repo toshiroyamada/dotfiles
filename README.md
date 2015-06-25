@@ -25,6 +25,12 @@ Setting up vim
 
 * Compile YouCompleteMe plugin (http://valloric.github.com/YouCompleteMe/)
 
+         # Need to install CMake first
+         sudo apt-getinstall cmake
+
+         cd ~/.vim/bundle/YouCompleteMe
+         ./install.sh --clang-completer
+
 * Compile Vim from source on Ubuntu
 
         sudo apt-get install libncurses5-dev libgnome2-dev libgnomeui-dev \
