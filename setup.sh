@@ -10,7 +10,7 @@ git config user.name "Toshiro Yamada"
 git config user.email "toshiroyamada@users.noreply.github.com"
 
 echo "Link files"
-for conf in vim vimrc zsh zshrc tmux.conf; do
+for conf in vim vimrc zsh zshrc zshenv tmux.conf; do
     echo ln -s "${relpath}/$conf" "${HOME}/.$conf"
     ln -s "${relpath}/$conf" "${HOME}/.$conf"
 done

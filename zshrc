@@ -196,11 +196,6 @@ else
     export EDITOR='vim'
 fi
 
-## TMUX 256-color
-if (($+TMUX)); then
-    export TERM=screen-256color
-fi
-
 ## Figure out what PATH should be
 ## Paths are not added if they do not exist
 typeset -U common_paths
@@ -305,6 +300,8 @@ if [[ $platform == 'mac' ]] then
         alias vim='/Applications/MacVim/MacVim.app/Contents/MacOS/Vim'
     elif [ -f '/Applications/MacVim.app/Contents/MacOS/Vim' ]; then
         alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+    elif [ -f '/usr/local/bin/vim' ]; then
+        alias vim='/usr/local/bin/vim'
     fi
 fi
 
