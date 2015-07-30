@@ -1,15 +1,18 @@
 #!/bin/bash
+if [ $(uname -s) = "Darwin" ]; then
+    brew install zsh
+else
+    OPTDIR=${HOME}/opt
+    SRCDIR=${OPTDIR}/src
 
-OPTDIR=${HOME}/opt
-SRCDIR=${OPTDIR}/src
+    mkdir -p ${OPTDIR} ${SRCDIR}
 
-mkdir -p ${OPTDIR} ${SRCDIR}
+    cd ${SRCDIR}
+    wget http://sourceforge.net/projects/zsh/files/zsh/5.0.7/zsh-5.0.7.tar.gz
+    tar xzf zsh-5.0.7.tar.gz
+    cd zsh-5.0.7
 
-cd ${SRCDIR}
-wget http://sourceforge.net/projects/zsh/files/zsh/5.0.7/zsh-5.0.7.tar.gz
-tar xzf zsh-5.0.7.tar.gz
-cd zsh-5.0.7
-
-./configure --prefix=${OPTDIR}
-make
-make install
+    ./configure --prefix=${OPTDIR}
+    make
+    make install
+fi
