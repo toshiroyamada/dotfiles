@@ -1,0 +1,26 @@
+#!/usr/bin/python
+import sys
+
+def decode_hex(hexstr):
+    dec = int(hexstr, 16)
+
+    # Pad front with 0s to make the length even
+    hexstr = hexstr.rjust((len(hexstr)/2 + len(hexstr)%2)*2, '0')
+
+    # Array of bits per byte, padded to be length 8
+    bits = [bin(int(byte, 16)).lstrip('0b').rjust(8, '0')
+            for byte in [''.join(x) for x in zip(*[iter(hexstr)]*2)]]
+
+    print ("%s" % dec).rjust(9*len(bits) - 1, ' ')
+    print ' '.join(''.join(x).rjust(8, ' ') for x in zip(*[iter(hexstr)]*2))
+    print ' '.join(bits)
+
+for arg in sys.argv[1:]:
+    # Assume 32bit number
+    arg = arg.lstrip('0x')
+    if len(arg) > 8:
+        for i in [''.join(x) for x in zip(*[iter(arg)]*8)]:
+            decode_hex(i)
+    else:
+        decode_hex(arg)
+

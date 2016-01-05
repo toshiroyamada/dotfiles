@@ -1,0 +1,11 @@
+#!/usr/bin/python
+import sys
+
+def main(args):
+    if args:
+        s = sum(int(x, 16) for x in args)
+        print "%d (%s)" % (s, hex(s))
+    return 0;
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))

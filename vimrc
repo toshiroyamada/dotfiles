@@ -158,7 +158,7 @@
 
 " Text Formatting/Layout {
   " Set tab to space of 4
-  set tabstop=8
+  set tabstop=4
   set shiftwidth=4
   set softtabstop=4
   set expandtab
@@ -314,6 +314,7 @@
     "  * warm_grey
     "  * lightcolors
     colorscheme distinguished
+    set background=dark
 
     " Set font according to system
     if has("mac")
@@ -347,6 +348,7 @@
     highlight SpecialKey gui=bold
   else
     colorscheme distinguished
+    set background=dark
 
     " Fix terminal timeout when pressing escape
     set ttimeoutlen=10
@@ -360,6 +362,10 @@
     highlight NonText cterm=bold
     " Set listchars "nbsp", "tab", and "trail" to use BOLD font
     highlight SpecialKey cterm=bold
+  endif
+
+  if &diff
+    colorscheme evening
   endif
 " }
 
