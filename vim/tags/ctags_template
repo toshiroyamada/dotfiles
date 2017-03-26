@@ -1,1 +1,0 @@
-ctags -f CalVR.tags -R --c++-kinds=+p --c-kinds=+p --fields=+aiS --extra=+q --language-force=C++ /usr/local/CalVR/include

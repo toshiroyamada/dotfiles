@@ -16,11 +16,11 @@ for conf in vim vimrc zsh zshrc zshenv tmux.conf; do
 done
 
 echo "Create swap, backup and undo folders"
-mkdir -p ~/.vimlocal/{backup,swap,undo}
+mkdir -p ~/.vim/{backup,swap,undo}
 
 echo Install vundle
-mkdir vim/bundle
-git clone https://github.com/gmarik/vundle.git vim/bundle/vundle
+mkdir ~/.vim/bundle
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
 echo Install vim bundles
 vim +BundleInstall +qall
