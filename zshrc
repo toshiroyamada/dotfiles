@@ -1,6 +1,6 @@
 ######################################################################
 #
-#		      Toshiro's zshrc file
+#      Toshiro's zshrc file
 #
 ######################################################################
 
@@ -36,9 +36,9 @@ setopt pushdsilent          # Don't print directory stack after pushd or popd
 
 ## Completion
 #unsetopt always_last_prompt # return to last prompt if given no numeric argument
-#setopt always_to_end        # move cursor to the end of word after completion
+setopt always_to_end        # move cursor to the end of word after completion
 #unsetopt auto_list          # automatically list choices
-unsetopt auto_menu          # automatically use menu completition after 2nd tab
+#unsetopt auto_menu          # automatically use menu completition after 2nd tab
 #setopt auto_name_dirs       # ??? (shouldn't be set)
 #unsetopt auto_param_keys    # delete space if param key inserted
 #unsetopt auto_param_slash   # add slash after directory name completion
@@ -435,15 +435,15 @@ bindkey ' ' magic-space    # also do history expansion on space
 #stty erase ^H &>/dev/null
 #bindkey "^[[3~" delete-char
 
-#chpwd() {
-#     [[ -t 1 ]] || return
-#     case $TERM in
-#     sun-cmd) print -Pn "\e]l%~\e\\"
-#     ;;
-#    *xterm*|screen|rxvt|(dt|k|E)term) print -Pn "\e]2;%~\a"
-#    ;;
-#    esac
-#}
+chpwd() {
+     [[ -t 1 ]] || return
+     case $TERM in
+     sun-cmd) print -Pn "\e]l%~\e\\"
+     ;;
+    *xterm*|screen|rxvt|(dt|k|E)term) print -Pn "\e]2;%~\a"
+    ;;
+    esac
+}
 #chpwd
 
 # Enable Ctrl-x-e to edit command line
@@ -491,10 +491,6 @@ calc() {
 # # --------------------------------------------------------------------
 # # Sourcing extra setups
 # # --------------------------------------------------------------------
-if [[ -e ~/.zsh/work ]]; then
-    source ~/.zsh/work
-fi
-
-if [[ -e ~/.zsh/display_preexec ]]; then
-    source ~/.zsh/display_preexec
+if [ -e ~/.tyconfig/zsh/extras.zsh ]; then
+    source ~/.tyconfig/zsh/extras.zsh
 fi

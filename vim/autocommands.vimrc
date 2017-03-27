@@ -1,11 +1,11 @@
 " Omnicomplete functions
-"autocmd FileType python set omnifunc=pythoncomplete#Complete
-"autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
-"autocmd FileType css set omnifunc=csscomplete#CompleteCSS
-"autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
-"autocmd FileType php set omnifunc=phpcomplete#CompletePHP
-"autocmd FileType c set omnifunc=ccomplete#Complete
+autocmd FileType c setlocal omnifunc=ccomplete#Complete
+autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+"autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
+"autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
+"autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
+"autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+"autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 
 "autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
 autocmd BufRead,BufNewFile *.plist setlocal noexpandtab shiftwidth=8 tabstop=8 softtabstop=8
@@ -14,7 +14,7 @@ autocmd BufRead,BufNewFile *.ino setlocal filetype=arduino
 autocmd BufRead,BufNewFile *.proto setlocal shiftwidth=2 tabstop=2 softtabstop=2
 "autocmd BufWritePost *.py call Flake8()
 
-autocmd FileType gitcommit call s:SetupGitCommit()
+"autocmd FileType gitcommit call s:SetupGitCommit()
 autocmd FileType go setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
 autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2

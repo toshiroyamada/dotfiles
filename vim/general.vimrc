@@ -13,7 +13,7 @@ set foldmethod=syntax       " Fold determined by syntax file
 "set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 "set foldopen=hor,mark,percent,quickfix,tag,undo " what movements open folds
 set hidden                  " change buffer without saving
-set history=150             " keep 150 lines of command line history
+set history=100             " keep 100 lines of command line history
 set laststatus=2            " always display the status line
 "set lazyredraw              " don't redraw when running macros
 set list                    " Display 

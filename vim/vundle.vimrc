@@ -3,53 +3,96 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-" Essentials
-Bundle 'FuzzyFinder'
-Bundle 'L9'
-Bundle 'vim-scripts/EasyColour'
-Bundle 'vim-scripts/TagHighlight'
+"-------------
+" Essentials |
+"-------------
 
-Bundle 'Lokaltog/vim-distinguished'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'kien/ctrlp.vim'
-Bundle 'mileszs/ack.vim'
-Bundle 'scrooloose/nerdtree'
-Bundle 'sjl/gundo.vim'
-Bundle 'taglist.vim'
-Bundle 'toshiroyamada/Kwbd.vim'
-Bundle 'toshiroyamada/dwm.vim'
-Bundle 'tpope/vim-commentary'
-Bundle 'tpope/vim-dispatch'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-repeat'
-Bundle 'vim-scripts/a.vim'
+" From vim-scripts
+" Fuzzy/partial search for buffer/file/command/etc.
+Plugin 'FuzzyFinder'
+" Provides utility commands and functions for ???
+Plugin 'L9'
 
-" TODO
-" Need proper compile option and config to use YouCompleteMe
-"Bundle 'Valloric/YouCompleteMe'
-" Need better config to search header files in syntastic
-"Bundle 'scrooloose/syntastic'
+" Close buffer utility
+Plugin 'toshiroyamada/Kwbd.vim'
 
-"Bundle 'Blackrush/vim-gocode'
-"Bundle 'MatlabFilesEdition'
-"Bundle 'Pydiction'
-"Bundle 'SuperTab-continued.'
-"Bundle 'derekwyatt/vim-scala'
-"Bundle 'fholgado/minibufexpl.vim'
-"Bundle 'ivanov/vim-ipython'
-"Bundle 'jnurmine/Zenburn'
-"Bundle 'jnwhiteh/vim-golang'
-"Bundle 'matthias-guenther/hammer.vim'  " markup lang to HTML
-"Bundle 'mattn/zencoding-vim'
-"Bundle 'scrooloose/nerdcommenter'
-"Bundle 'sophacles/vim-processing'
-"Bundle 'tpope/vim-speeddating'
-"Bundle 'vim-scripts/OmniCppComplete'
-"Bundle 'vim-scripts/compilejsl.vim'
+" gc/gcc to comment out selection or line
+Plugin 'tpope/vim-commentary'
+" . command can be used with pluging map
+Plugin 'tpope/vim-repeat'
 
-syntax on
+"----------------------------
+" Code Check and Cmopletion |
+"----------------------------
+" Omni-completion using ctags
+"Plugin 'vim-scripts/OmniCppComplete'
+Plugin 'Shougo/neocomplete.vim'
+" TODO: Need better config to search header files in syntastic
+"Plugin 'scrooloose/syntastic'
+" TODO: Need proper compile option and config to use YouCompleteMe
+"Plugin 'Valloric/YouCompleteMe'
+
+"----------
+" Utility |
+"----------
+" File tree explorer
+Plugin 'scrooloose/nerdtree'
+" Visualize git vim undo tree
+Plugin 'sjl/gundo.vim'
+" Display ctag list
+"Plugin 'taglist.vim'
+Plugin 'majutsushi/tagbar'
+" File/buffer search using ctrl-p
+Plugin 'kien/ctrlp.vim'
+" Search tool in vim
+Plugin 'mileszs/ack.vim'
+" Asynchronously dispatch commands such as make
+Plugin 'tpope/vim-dispatch'
+" Git wrapper
+Plugin 'tpope/vim-fugitive'
+" Toggle between header and source files
+" TODO:
+" - doesn't work with C++ files unless file is opened,
+" - doesn't work if header/source are in different directory.
+Plugin 'vim-scripts/a.vim'
+
+"----------
+" Display |
+"----------
+" Improved status line
+"Plugin 'Lokaltog/vim-powerline'
+Plugin 'vim-airline/vim-airline'
+" Display git change status on left of line number
+Plugin 'airblade/vim-gitgutter'
+" Syntax highlighting for various languages using ctags
+Plugin 'vim-scripts/TagHighlight'
+
+"----------------
+" Color Schemes |
+"----------------
+Plugin 'Lokaltog/vim-distinguished'
+Plugin 'altercation/vim-colors-solarized'
+" Makes it easy to create color scheme. DO I NEED IT?
+"Plugin 'vim-scripts/EasyColour'
+
+"Plugin 'Blackrush/vim-gocode'
+"Plugin 'MatlabFilesEdition'
+"Plugin 'Pydiction'
+"Plugin 'SuperTab-continued.'
+"Plugin 'derekwyatt/vim-scala'
+"Plugin 'fholgado/minibufexpl.vim'
+"Plugin 'flazz/vim-colorschemes' " Includes many color schemes
+"Plugin 'ivanov/vim-ipython'
+"Plugin 'jnurmine/Zenburn'
+"Plugin 'jnwhiteh/vim-golang'
+"Plugin 'matthias-guenther/hammer.vim'  " markup lang to HTML
+"Plugin 'mattn/zencoding-vim'
+"Plugin 'scrooloose/nerdcommenter'
+"Plugin 'sophacles/vim-processing'
+"Plugin 'tpope/vim-speeddating'
+"Plugin 'vim-scripts/compilejsl.vim'
+
+"syntax on
 filetype plugin indent on

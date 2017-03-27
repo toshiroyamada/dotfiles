@@ -45,8 +45,11 @@ map <leader>nn :NERDTree<cr>
 map <leader>nc :NERDTreeClose<cr>
 
 " TagList
-map <leader>ll :TlistOpen<cr>
-map <leader>lc :TlistClose<cr>
+"map <leader>ll :TlistOpen<cr>
+"map <leader>lc :TlistClose<cr>
+
+" Tagbar
+map <leader>ll :TagbarToggle<cr>
 
 "========================================
 "   Function Keys
@@ -60,13 +63,3 @@ noremap <F3> "=strftime("%FT%T")<CR>P
 inoremap <F3> <C-R>=strftime("%FT%T")<CR>
 
 nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
-
-"========================================
-"   Control
-"========================================
-"nmap <C-N> :DWMNew<cr>
-"nmap <C-Q> :DWMClose<cr>
-"nmap <C-H> :DWMFocus<cr>
-nmap <C-L> :DWMFull<cr>
-"nmap <C-J> <C-W>w<cr>
-"nmap <C-K> <C-W>W<cr>

@@ -1,3 +1,4 @@
+syntax on
 "set cursorcolumn           " highlight the current column
 "set cursorline             " highlight current line
 
@@ -6,25 +7,17 @@ if $TERM == "xterm-256color" || $TERM == "screen-256color" || $COLORTERM == "gno
     set t_Co=256
 endif
 
-colorscheme distinguished
-set background=dark
-
-" Override colorscheme in vimdiff mode
-if &diff
-    colorscheme evening
+" Fix Background Color Erase issue when running in tmux
+" See https://sunaku.github.io/vim-256color-bce.html
+if &term =~ '256color'
+    set t_ut=
 endif
 
-if has("gui_running")
-    " colo[rscheme]
-    "  * wombat - dark bg, red variable name
-    "  * mustang - dark bg, bold white function
-    "  * midnight - dark bg, good for low light environment
-    "  * molokai - dark bg, pink keyword
-    "  * macvim - white bg, default macvim color
-    "  * distinguished - dark bg, 256-color
-    "  * warm_grey
-    "  * lightcolors
+set background=dark
+"colorscheme distinguished
+colorscheme solarized
 
+if has("gui_running")
     " Set font according to system
     if has("mac")
         set linespace=1
@@ -47,11 +40,6 @@ if has("gui_running")
     set guioptions-=m     " remove menubar
     set guioptions-=e     " remove GUI tab option
     set guioptions-=rRlL  " remove scrollbars
-
-    " Set listchars "eol" and "extends" to use BOLD font
-    highlight NonText gui=bold
-    " Set listchars "nbsp", "tab", and "trail" to use BOLD font
-    highlight SpecialKey gui=bold
 else
     " Fix terminal timeout when pressing escape
     set ttimeoutlen=10
@@ -60,10 +48,9 @@ else
         autocmd InsertEnter * set timeoutlen=0
         autocmd InsertLeave * set timeoutlen=1000
     augroup END
-
-    " Set listchars "eol" and "extends" to use BOLD font
-    highlight NonText cterm=bold
-    " Set listchars "nbsp", "tab", and "trail" to use BOLD font
-    highlight SpecialKey cterm=bold
 endif
 
+" Set listchars "eol" and "extends" to use BOLD font
+highlight NonText gui=bold
+" Set listchars "nbsp", "tab", and "trail" to use BOLD font
+highlight SpecialKey gui=bold
