@@ -40,11 +40,11 @@ let g:syntastic_ignore_files = ['\.py$']
 " Set my ctags binary
 "
 if has("win32")
-    if fileradable("${HOME}\bin\ctags.exe")
+    if filereadable("${HOME}\bin\ctags.exe")
         let g:myctags = "${HOME}\bin\ctags.exe"
     endif
 elseif has("mac")
-    if fileradable("${HOME}/homebrew/bin/ctags")
+    if filereadable("${HOME}/homebrew/bin/ctags")
         let g:myctags = "${HOME}/homebrew/bin/ctags"
     endif
 endif
@@ -92,7 +92,7 @@ let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 let g:ctrlp_extensions = ['tag', 'buffertag']
 let g:ctrlp_regexp = 1
 let g:ctrlp_match_window = 'buttom,order:btt,min:1,max:20,results:20'
-if exists("${HOME}/.tyconfig/vim/ctrlp.vim")
+if filereadable("${HOME}/.tyconfig/vim/ctrlp.vim")
     source ${HOME}/.tyconfig/vim/ctrlp.vim
 else
     if executable('ag')
