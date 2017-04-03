@@ -30,7 +30,7 @@ Plugin 'tpope/vim-repeat'
 "Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'Shougo/neocomplete.vim'
 " TODO: Need better config to search header files in syntastic
-"Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " TODO: Need proper compile option and config to use YouCompleteMe
 "Plugin 'Valloric/YouCompleteMe'
 

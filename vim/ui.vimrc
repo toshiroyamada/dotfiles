@@ -14,8 +14,8 @@ if &term =~ '256color'
 endif
 
 set background=dark
-"colorscheme distinguished
-colorscheme solarized
+colorscheme distinguished
+"colorscheme solarized
 
 if has("gui_running")
     " Set font according to system

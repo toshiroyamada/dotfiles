@@ -41,15 +41,14 @@ nnoremap <leader>jd :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>jD :YcmCompleter GoToDefinition<CR>
 
 " NERDTree
-map <leader>nn :NERDTree<cr>
-map <leader>nc :NERDTreeClose<cr>
+map <leader>n :NERDTreeToggle<cr>
 
 " TagList
 "map <leader>ll :TlistOpen<cr>
 "map <leader>lc :TlistClose<cr>
 
 " Tagbar
-map <leader>ll :TagbarToggle<cr>
+map <leader>l :TagbarToggle<cr>
 
 "========================================
 "   Function Keys

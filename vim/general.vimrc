@@ -15,9 +15,10 @@ set foldmethod=syntax       " Fold determined by syntax file
 set hidden                  " change buffer without saving
 set history=100             " keep 100 lines of command line history
 set laststatus=2            " always display the status line
-"set lazyredraw              " don't redraw when running macros
-set list                    " Display 
-set listchars=eol:↲,tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
+set lazyredraw              " don't redraw when running macros
+set list                    " Display
+"set listchars=eol:↲,tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
+set listchars=tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
 set mousehide               " hide mouse after char typed
 set nospell                 " no spell check
 set number                  " display line number

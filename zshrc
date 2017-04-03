@@ -288,7 +288,7 @@ for color in RED GREEN YELLOW BLUE MAGENTA CYAN WHITE; do
 done
 PR_NO_COLOR="%{$terminfo[sgr0]%}"
 
-PS1="$PR_LIGHT_CYAN%DT%*$PR_NO_COLOR [$PR_LIGHT_MAGENTA%n$PR_NO_COLOR@$PR_LIGHT_GREEN%U%m%u$PR_NO_COLOR:$PR_LIGHT_RED%1c$PR_NO_COLOR]%(!.#.$) "
+PS1="$PR_LIGHT_CYAN%D %*$PR_NO_COLOR [$PR_LIGHT_MAGENTA%n$PR_NO_COLOR@$PR_LIGHT_GREEN%U%m%u$PR_NO_COLOR:$PR_LIGHT_RED%1c$PR_NO_COLOR]%(!.#.$) "
 #PR_SC=$PR_NO_COLOR$PR_LIGHT_RED
 #PR_LC=$PR_NO_COLOR$PR_LIGHT_CYAN
 #PS1=$PR_SC"[$PR_LC%n$PR_SC@$PR_LC%m%u$PR_SC:$PR_LC%2c$PR_SC]$PR_LC%(!.#.$) $PR_NO_COLOR"
@@ -390,6 +390,9 @@ fi
 
 # Git-specific shorthand aliases
 alias git-log-graph='git log --graph --pretty="%h - %an = %s"'
+
+# Start tmux project based on directory name
+alias tmuxhere='tmux $(basename $(pwd))'
 
 # # --------------------------------------------------------------------
 # # Key bindings

@@ -14,10 +14,11 @@ let g:ycm_confirm_extra_conf=0
 "
 " nerdtree
 "
-let g:NERDTreeWinPos='left'
-let g:NERDTreeWinSize=60
-let g:NERDChristmasTree=1
-let g:NERDTreeIgnore=['\.rbc$','\~$','\.o$']
+let g:NERDTreeWinPos = 'left'
+let g:NERDTreeWinSize = 50
+let g:NERDChristmasTree = 1
+let g:NERDTreeIgnore = ['\.rbc$','\~$','\.o$']
+let g:NERDTreeShowLineNumbers = 1
 
 "
 " Syntastic
@@ -73,7 +74,7 @@ let g:Tlist_Use_Left_Window = 1
 " Tagbar
 "
 let g:tagbar_left = 1
-let g:tagbar_width = 60
+let g:tagbar_width = 40
 
 "
 " Ack
@@ -104,7 +105,7 @@ endif
 "
 let g:solarized_termcolors=256
 let g:solarized_contrast="normal"
-let g:solarized_visibility="high"
+let g:solarized_visibility="normal"
 
 "
 " vim-airline
