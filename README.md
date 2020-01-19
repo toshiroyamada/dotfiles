@@ -1,13 +1,18 @@
 Toshiro's dotfiles
 ==================
 
-Setting up vim
---------------
+General Setup
+-------------
 
-* symlink vim to ~/.vim and vimrc to ~/.vimrc
+* Create symbolic links:
 
-        ln -s vim ~/.vimrc
+        ln -s tmux.conf ~/.tmux.conf
         ln -s vimrc ~/.vimrc
+        ln -s zshenv ~/.zshenv
+        ln -s zshrc ~/.zshrc
+
+Vim Vundle Setup
+----------------
 
 * Create necessary directories
 
@@ -23,6 +28,9 @@ Setting up vim
 
         vim +BundleInstall +qall
 
+Vim YCM Setup
+-------------
+
 * Compile YouCompleteMe plugin (http://valloric.github.com/YouCompleteMe/)
 
          # Need to install CMake first
@@ -30,6 +38,9 @@ Setting up vim
 
          cd ~/.vim/bundle/YouCompleteMe
          ./install.sh --clang-completer
+
+Vim on Linux
+------------
 
 * Compile Vim from source on Ubuntu
 
