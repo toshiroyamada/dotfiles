@@ -33,23 +33,6 @@ nmap <leader>c :lcd %:p:h<cr>
 " Change all vim directories to current file
 nmap <leader>C :cd %:p:h<cr>
 
-" Plugin shortcuts
-map <leader>g :GundoToggle<CR>
-
-" YouCompleteMe
-nnoremap <leader>jd :YcmCompleter GoToDeclaration<CR>
-nnoremap <leader>jD :YcmCompleter GoToDefinition<CR>
-
-" NERDTree
-map <leader>n :NERDTreeToggle<cr>
-
-" TagList
-"map <leader>ll :TlistOpen<cr>
-"map <leader>lc :TlistClose<cr>
-
-" Tagbar
-map <leader>l :TagbarToggle<cr>
-
 "========================================
 "   Function Keys
 "========================================
@@ -60,5 +43,3 @@ noremap <F2> "=strftime("%Y/%m/%d %H:%M:%S")<CR>P
 inoremap <F2> <C-R>=strftime("%Y/%m/%d %H:%M:%S")<CR>
 noremap <F3> "=strftime("%FT%T")<CR>P
 inoremap <F3> <C-R>=strftime("%FT%T")<CR>
-
-nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>

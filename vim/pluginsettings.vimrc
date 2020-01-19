@@ -1,15 +1,22 @@
+map <leader>g :GundoToggle<CR>
+
 "
 " YouCompleteMe
 "
-let g:ycm_key_detailed_diagnostics=''
+"let g:ycm_key_detailed_diagnostics=''
 if has("mac")
     " Use the system python since I compile YouCompleteMe with this version
     let g:ycm_path_to_python_interpreter='/usr/bin/python'
 endif
 " Close the annoying preview window when done
-let g:ycm_autoclose_preview_window_after_completion=0
-let g:ycm_autoclose_preview_window_after_insertion=1
-let g:ycm_confirm_extra_conf=0
+"let g:ycm_autoclose_preview_window_after_completion=0
+"let g:ycm_autoclose_preview_window_after_insertion=1
+"let g:ycm_confirm_extra_conf=0
+
+"nnoremap <silent> <C-]> :YcmCompleter GoTo<CR>
+nnoremap <leader>jd :YcmCompleter GoToDeclaration<CR>
+nnoremap <leader>jD :YcmCompleter GoToDefinition<CR>
+nnoremap <F5> :YcmForceCompileAndDiagnostics<CR>
 
 "
 " nerdtree
@@ -19,6 +26,8 @@ let g:NERDTreeWinSize = 50
 let g:NERDChristmasTree = 1
 let g:NERDTreeIgnore = ['\.rbc$','\~$','\.o$']
 let g:NERDTreeShowLineNumbers = 1
+
+map <leader>n :NERDTreeToggle<cr>
 
 "
 " Syntastic
@@ -70,11 +79,18 @@ let g:Tlist_WinWidth = 40
 let g:Tlist_Display_Prototype = 0
 let g:Tlist_Use_Left_Window = 1
 
+"map <leader>ll :TlistOpen<cr>
+"map <leader>lc :TlistClose<cr>
+
 "
 " Tagbar
 "
 let g:tagbar_left = 1
-let g:tagbar_width = 40
+let g:tagbar_width = 80
+let g:tagbar_autofocus = 1
+let g:tagbar_autoclose = 1
+let g:tagbar_sort = 0   " order as it appears in file
+map <leader>l :TagbarToggle<cr>
 
 "
 " Ack
@@ -86,19 +102,26 @@ endif
 "
 " CtrlP
 "
-let g:ctrlp_working_path_mode = 'ra'
+"let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_working_path_mode = 'c'
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_cache_dir = $HOME . '/.cache/ctrlp'
 let g:ctrlp_extensions = ['tag', 'buffertag']
 let g:ctrlp_regexp = 1
 let g:ctrlp_match_window = 'buttom,order:btt,min:1,max:20,results:20'
-if filereadable("${HOME}/.tyconfig/vim/ctrlp.vim")
-    source ${HOME}/.tyconfig/vim/ctrlp.vim
-else
+"if exists("${HOME}/.tyconfig/vim/ctrlp.vim")
+"    source ${HOME}/.tyconfig/vim/ctrlp.vim
+"else
     if executable('ag')
-        let g:ctrlp_user_command = 'ag %s --files-with-matches --nocolor -g ""'
+        "let g:ctrlp_user_command = 'ag %s --files-with-matches --nocolor -g ""'
+        let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --hidden
+            \ --skip-vcs-ignores
+            \ --files-with-matches
+            \ --all-text
+            \ --follow
+            \ -g ""'
     endif
-endif
+"endif
 
 "
 " Solarized color scheme

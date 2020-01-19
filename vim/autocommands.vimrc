@@ -1,6 +1,6 @@
 " Omnicomplete functions
-autocmd FileType c setlocal omnifunc=ccomplete#Complete
-autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
+"autocmd FileType c setlocal omnifunc=ccomplete#Complete
+"autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 "autocmd FileType html setlocal omnifunc=htmlcomplete#CompleteTags
 "autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
@@ -8,19 +8,20 @@ autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 "autocmd FileType php setlocal omnifunc=phpcomplete#CompletePHP
 
 "autocmd BufRead,BufNewFile *.{mkd,md,markdown} call s:SetupMarkdownPreview()
-autocmd BufRead,BufNewFile *.plist setlocal noexpandtab shiftwidth=8 tabstop=8 softtabstop=8
-autocmd BufRead,BufNewFile *.{scala,sbt} setlocal syntax=scala
-autocmd BufRead,BufNewFile *.ino setlocal filetype=arduino
-autocmd BufRead,BufNewFile *.proto setlocal shiftwidth=2 tabstop=2 softtabstop=2
+"autocmd BufRead,BufNewFile *.plist setlocal noexpandtab shiftwidth=8 tabstop=8 softtabstop=8
+"autocmd BufRead,BufNewFile *.{scala,sbt} setlocal syntax=scala
+"autocmd BufRead,BufNewFile *.ino setlocal filetype=arduino
+"autocmd BufRead,BufNewFile *.proto setlocal shiftwidth=2 tabstop=2 softtabstop=2
 "autocmd BufWritePost *.py call Flake8()
 
 "autocmd FileType gitcommit call s:SetupGitCommit()
-autocmd FileType go setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
-autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
-autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
-autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
-autocmd FileType scala setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
-autocmd FileType make setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
+autocmd FileType cpp setlocal expandtab shiftwidth=2 softtabstop=2
+"autocmd FileType go setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
+"autocmd FileType matlab setlocal shiftwidth=4 tabstop=4 softtabstop=4
+"autocmd FileType objc setlocal expandtab shiftwidth=2 softtabstop=2
+autocmd FileType python setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+"autocmd FileType scala setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+"autocmd FileType make setlocal noexpandtab shiftwidth=4 tabstop=4 softtabstop=4
 
 " GZip files
 augroup gzip
@@ -35,5 +36,10 @@ augroup gzip
 augroup END
 
 " Prevent fold from opening when inserting unbalanced bracket
+" http://vim.wikia.com/wiki/Keep_folds_closed_while_inserting_text
 autocmd InsertEnter * if !exists('w:last_fdm') | let w:last_fdm=&foldmethod | setlocal foldmethod=manual | endif
 autocmd InsertLeave,WinLeave * if exists('w:last_fdm') | let &l:foldmethod=w:last_fdm | unlet w:last_fdm | endif
+
+" https://stackoverflow.com/a/30618494
+"autocmd InsertLeave,WinEnter * setlocal foldmethod=syntax
+"autocmd InsertEnter,WinLeave * setlocal foldmethod=manual

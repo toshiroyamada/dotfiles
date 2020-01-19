@@ -29,10 +29,12 @@ if has("gui_running")
         set guifont=Consolas:h11
     elseif has("unix")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
+        "set guifont=Monospace\ Regular\ 10
+        set guifont=Mono\ 11
     elseif has("linux")
         set linespace=1
-        set guifont=DejaVu\ Sans\ Mono\ Book\ 8.6
+        "set guifont=Monospace\ Regular\ 10
+        set guifont=Mono\ 10
         set guioptions+=ag
     endif
 
@@ -54,3 +56,6 @@ endif
 highlight NonText gui=bold
 " Set listchars "nbsp", "tab", and "trail" to use BOLD font
 highlight SpecialKey gui=bold
+
+" Change background color for columns after 80 characters
+"let &colorcolumn=join(range(81,999),",")

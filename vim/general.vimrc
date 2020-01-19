@@ -6,10 +6,9 @@ set noexrc                  " don't use local version of .(g)vimrc, .exrc
 "
 set backspace=indent,eol,start  " allow backspacing over everything in insert mode
 set backup                  " make backup files
-set clipboard+=unnamed      " Alias unnamed register to the * register
-set clipboard=unnamedplus   " Alias unnamed register to the + register
+set clipboard=unnamed       " Alias unnamed register to the * register
 set foldenable              " Turn on folding
-set foldmethod=syntax       " Fold determined by syntax file
+set foldmethod=indent       " Fold determined by syntax file
 "set foldopen=block,hor,mark,percent,quickfix,tag " what movements open folds
 "set foldopen=hor,mark,percent,quickfix,tag,undo " what movements open folds
 set hidden                  " change buffer without saving
@@ -17,23 +16,21 @@ set history=100             " keep 100 lines of command line history
 set laststatus=2            " always display the status line
 set lazyredraw              " don't redraw when running macros
 set list                    " Display
-"set listchars=eol:↲,tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
 set listchars=tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
-set mousehide               " hide mouse after char typed
-set nospell                 " no spell check
 set number                  " display line number
 set ruler                   " show the cursor position all the time
-set scrolloff=2             " keep n lines above and below the cursor if possible
-set showcmd                 " display incomplete commands
-set showmode                " display current editing status
-set spelllang=en            " spellcheck for english
 set tags=tags;./tags;/      " ctag all the way up to root
 set t_kb=                 " Fix backspace not working on Linux?
 set ttyfast                 " smoother redraw
 set visualbell              " use visual beeps
 set wildignore+=*.dll,*.o,*.obj,*.git,*.bak,*.exe,*.pyc,*.jpg,*.gif,*.png,*rbc
 set wildmenu                " Turn on command line completion wild style
-set wildmode=list,full      " List all matches without completing, then each full match
+set wildmode=list:longest   " Act like shell completion
+
+
+" Mouse configuration
+set mouse=a
+set mousehide               " hide mouse after char typed
 
 if version >= 703
     "set autochdir           " always switch to the current file directory
@@ -70,17 +67,12 @@ set expandtab
 
 set autoindent
 set wrap                    " wrap text
-"set linebreak              " break at breakat (only for 8-bit encoding)
 if has('breakindent')
     set breakindent         " indent wrapped text
     set showbreak=..        " characters to show when breakindent
 endif
 set textwidth=79            " Break long line after white space
 set formatoptions=qrn1      " See fo-table
-
-" highlight the text that's over 80 characters
-"highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-"match OverLength /\%81v.\+/
 
 if has("multi_byte")
     scriptencoding utf-8
@@ -95,7 +87,7 @@ endif
 "
 " Search and moving
 "
-set ignorecase                  " Search case-insensitive when string is all-lowercase.
+"set ignorecase                  " Search case-insensitive when string is all-lowercase.
 set smartcase                   " If string contains at least one uppercase, search case-sensitive.
 set incsearch                   " Do incremental searching.
 set hlsearch                    " highlight search terms

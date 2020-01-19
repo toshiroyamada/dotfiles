@@ -1,6 +1,6 @@
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 
 Plugin 'gmarik/vundle'
@@ -30,7 +30,7 @@ Plugin 'tpope/vim-repeat'
 "Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'Shougo/neocomplete.vim'
 " TODO: Need better config to search header files in syntastic
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 " TODO: Need proper compile option and config to use YouCompleteMe
 "Plugin 'Valloric/YouCompleteMe'
 
@@ -40,7 +40,7 @@ Plugin 'scrooloose/syntastic'
 " File tree explorer
 Plugin 'scrooloose/nerdtree'
 " Visualize git vim undo tree
-Plugin 'sjl/gundo.vim'
+"Plugin 'sjl/gundo.vim'
 " Display ctag list
 "Plugin 'taglist.vim'
 Plugin 'majutsushi/tagbar'
@@ -49,7 +49,7 @@ Plugin 'kien/ctrlp.vim'
 " Search tool in vim
 Plugin 'mileszs/ack.vim'
 " Asynchronously dispatch commands such as make
-Plugin 'tpope/vim-dispatch'
+"Plugin 'tpope/vim-dispatch'
 " Git wrapper
 Plugin 'tpope/vim-fugitive'
 " Toggle between header and source files

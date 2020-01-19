@@ -1,8 +1,3 @@
-function! s:SetupMarkdownPreview()
-    set spell
-    map <buffer> <leader>p :Mm <cr>
-endfunction
-
 function! s:SetupGitCommit()
     set textwidth=72
     if version >= 703
@@ -12,22 +7,6 @@ function! s:SetupGitCommit()
     set wrap
     " make sure position is set at the beginning
     call setpos('.', [0, 1, 1, 0])
-endfunction
-
-" Set indent spacing to |spaces|
-function! SetTabSpace(spaces)
-    :execute 'set tabstop='.a:spaces
-    :execute 'set shiftwidth='.a:spaces
-    :execute 'set softtabstop='.a:spaces
-endfunction
-
-" Set indent spacing to |spaces| and reindent the whole page
-function! RetabSpaceTo(spaces)
-    :execute 'set tabstop='.a:spaces
-    :execute 'set shiftwidth='.a:spaces
-    :execute 'set softtabstop='.a:spaces
-    set expandtab
-    normal ggVG=
 endfunction
 
 " Generate tags for specific language type
