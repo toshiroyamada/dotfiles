@@ -3,10 +3,10 @@
 # # --------------------------------------------------------------------
 setopt ALL_EXPORT
 
-TZ="America/San_Diego"
+TZ="America/Los_Angeles"
 HISTFILE=$HOME/.zhistory
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HOSTNAME="`hostname`"
 PAGER='less'
 EDITOR='vim'
@@ -30,20 +30,12 @@ fi
 
 # Mac specific
 if [[ $platform == 'mac' ]]; then
-    # MacVim
-    if [ -d '/Applications/MacVim' ]; then
-        export VIM_APP_DIR=/Applications/MacVim
-    else
-        export VIM_APP_DIR=/Applications
-    fi
-    export EDITOR='${VIM_APP_DIR}/MacVim.app/Contents/MacOS/Vim'
     # Wireshark
     if [ -d '/Applications/Wireshark' ]; then
         export WIRESHARK_APP_DIR=/Applications/Wireshark
     fi
-else
-    export EDITOR='vim'
 fi
+export EDITOR='vim'
 
 # virtualenvwrapper
 export WORKON_HOME=~/.virtualenv
