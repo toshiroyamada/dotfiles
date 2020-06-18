@@ -1,0 +1,39 @@
+{
+  "title": "Evoluent VerticalMouse 4 Paste (wheel) and Copy (middle)",
+  "rules": [
+    {
+      "description": "Map Mouse Wheel (button5) to Copy",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button5"
+          },
+          "to": [
+            {
+              "key_code": "c",
+              "modifiers": "left_command"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Map Mouse Middle (button3) to Paste",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "pointing_button": "button3"
+          },
+          "to": [
+            {
+              "key_code": "v",
+              "modifiers": "left_command"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

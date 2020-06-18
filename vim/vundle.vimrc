@@ -24,15 +24,24 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-repeat'
 
 "----------------------------
-" Code Check and Cmopletion |
+" Code Check and Completion |
 "----------------------------
 " Omni-completion using ctags
 "Plugin 'vim-scripts/OmniCppComplete'
 Plugin 'Shougo/neocomplete.vim'
 " TODO: Need better config to search header files in syntastic
-"Plugin 'scrooloose/syntastic'
+"Plugin 'vim-syntastic/syntastic'
+"Plugin 'Scuilion/gradle-syntastic-plugin'
 " TODO: Need proper compile option and config to use YouCompleteMe
 "Plugin 'Valloric/YouCompleteMe'
+
+"---------------------
+" Language specifics |
+"---------------------
+" Indentation in Groovy
+Plugin 'modille/groovy.vim'
+Plugin 'udalov/kotlin-vim'
+Plugin 'fatih/vim-go'
 
 "----------
 " Utility |

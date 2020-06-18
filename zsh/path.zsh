@@ -56,6 +56,7 @@ function export-default-path
         ${HOME}/dev/scripts
         #${HOME}/.rvm/bin
         ${default_path}
+        /usr/local/homebrew/bin
         /usr/local/bin /usr/local/sbin
         /usr/bin /usr/sbin
         /bin /sbin
