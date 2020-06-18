@@ -17,16 +17,15 @@ Vim Vundle Setup
 * Create necessary directories
 
         mkdir vim/bundle
-        mkdir -p ~/.vimlocal/{backup,swap,undo}
+        mkdir -p ~/.vim/{backup,swap,undo}
 
 * Donwload vundle
 
-        cd vim/bundle
-        git clone https://github.com/gmarik/vundle.git
+        git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 * Install plugins using vundle
 
-        vim +BundleInstall +qall
+        vim +PluginInstall +qall
 
 Vim YCM Setup
 -------------
