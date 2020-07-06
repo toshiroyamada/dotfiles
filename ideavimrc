@@ -1,0 +1,7 @@
+set list                    " Display
+set listchars=tab:▸\ ,trail:·,extends:»,precedes:«,nbsp:.
+
+set relativenumber
+
+" Remove trailing spaces
+nmap <leader>W :%s/\s\+$//<cr>:let @/=''<cr>
