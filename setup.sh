@@ -9,7 +9,7 @@ git config user.name "Toshiro Yamada"
 git config user.email "toshiroyamada@users.noreply.github.com"
 
 echo "Link files"
-for conf in vimrc zshrc zshenv tmux.conf; do
+for conf in vimrc ideavimrc zshrc zshenv tmux.conf; do
     echo ln -s "${relpath}/$conf" "${HOME}/.$conf"
     ln -s "${relpath}/$conf" "${HOME}/.$conf"
 done
@@ -28,7 +28,23 @@ vim +PluginInstall +qall
 # Run prefix + I in tmux to install plugins
 # git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
-echo Ready. Now compile YouCompleteMe: http://valloric.github.com/YouCompleteMe/
+system_name="$(uname -s)"
+if [ "$system_name" = "Darwin" ]; then
+    if ! command -v brew &> /dev/null; then
+        echo "Installing Homebrew"
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+    fi
+    echo "Installing vim"
+    brew install vim
+    echo "Installing tmux"
+    brew install tmux
+    echo "Installing reattach-to-user-namespace for clipboard sharing in tmux"
+    brew install reattach-to-user-namespace
 
-# On Linux, we need to install the following dependencies
-# sudo apt-get install build-essential git cmake python-dev
+    echo 'For Zsh compinit warning: compaudit | xargs chmod g-w'
+elif [ "$system_name" = "Linux" ]; then
+    # On Linux, we need to install the following dependencies
+    sudo apt-get install build-essential git cmake python-dev
+fi
+
+# echo Ready. Now compile YouCompleteMe: http://valloric.github.com/YouCompleteMe/
