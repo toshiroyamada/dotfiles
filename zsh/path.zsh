@@ -51,12 +51,8 @@ function export-default-path
     common_paths=(
         # List in preferred order
         ${HOME}/bin
-        #${HOME}/opt/bin
-        ${HOME}/homebrew/bin
         ${HOME}/dev/scripts
-        #${HOME}/.rvm/bin
         ${default_path}
-        /usr/local/homebrew/bin
         /usr/local/bin /usr/local/sbin
         /usr/bin /usr/sbin
         /bin /sbin
