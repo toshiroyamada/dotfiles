@@ -134,4 +134,5 @@ let g:solarized_visibility="normal"
 " vim-airline
 "
 let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#searchcount#enabled = 0
 
