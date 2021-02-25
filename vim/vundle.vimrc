@@ -42,6 +42,7 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'modille/groovy.vim'
 Plugin 'udalov/kotlin-vim'
 Plugin 'fatih/vim-go'
+Plugin 'dag/vim-fish'
 
 "----------
 " Utility |
